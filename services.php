@@ -67,9 +67,9 @@ $nav_cta_href = 'contact.php';
   <section style="position:relative; z-index:1; max-width:1180px; margin:0 auto; padding:clamp(56px,7vw,96px) clamp(20px,5vw,56px);">
     <div class="svc2">
       <div data-reveal class="card" style="padding:clamp(26px,3vw,36px); border:1px solid rgba(255,255,255,.08); border-radius:18px; background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.008));">
-        <div style="display:flex; align-items:flex-start; gap:16px; margin-bottom:16px;">
+        <div style="display:flex; align-items:center; gap:16px; margin-bottom:16px;">
           <div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:50px; height:50px; border-radius:13px; background:rgba(0,229,160,.1); border:1px solid rgba(0,229,160,.22);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
-          <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Website Dev &amp; Optimization</div><div style="font-size:13px; color:var(--accent); font-weight:600; margin-top:5px;">$2,500 – $3,500 / mo · incl. hosting</div></div>
+          <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Website Dev &amp; Optimization</div></div>
         </div>
         <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">Your website is your #1 sales rep — it works 24/7 and closes jobs while you sleep. We build high-converting contractor sites and keep them optimized every month.</p>
         <div style="display:flex; flex-direction:column; gap:9px;">
@@ -80,9 +80,9 @@ $nav_cta_href = 'contact.php';
       </div>
 
       <div data-reveal class="card" style="padding:clamp(26px,3vw,36px); border:1px solid rgba(255,255,255,.08); border-radius:18px; background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.008));">
-        <div style="display:flex; align-items:flex-start; gap:16px; margin-bottom:16px;">
+        <div style="display:flex; align-items:center; gap:16px; margin-bottom:16px;">
           <div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:50px; height:50px; border-radius:13px; background:rgba(0,229,160,.1); border:1px solid rgba(0,229,160,.22);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></div>
-          <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Local SEO</div><div style="font-size:13px; color:var(--accent); font-weight:600; margin-top:5px;">$2,500 / mo</div></div>
+          <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Local SEO</div></div>
         </div>
         <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">Organic leads are the cheapest leads you'll ever get. We dominate Google for every service + city in your market — so you're the obvious answer at 11pm.</p>
         <div style="display:flex; flex-direction:column; gap:9px;">
@@ -93,9 +93,9 @@ $nav_cta_href = 'contact.php';
       </div>
 
       <div data-reveal class="card" style="padding:clamp(26px,3vw,36px); border:1px solid rgba(255,255,255,.08); border-radius:18px; background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.008));">
-        <div style="display:flex; align-items:flex-start; gap:16px; margin-bottom:16px;">
+        <div style="display:flex; align-items:center; gap:16px; margin-bottom:16px;">
           <div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:50px; height:50px; border-radius:13px; background:rgba(0,229,160,.1); border:1px solid rgba(0,229,160,.22);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-          <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Google Business Profile</div><div style="font-size:13px; color:var(--accent); font-weight:600; margin-top:5px;">$500 – $1,000 / mo</div></div>
+          <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Google Business Profile</div></div>
         </div>
         <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">Your GBP is often the first thing a customer sees — before your site, before your ads. We turn yours into a lead machine with weekly activity Google rewards.</p>
         <div style="display:flex; flex-direction:column; gap:9px;">
@@ -106,9 +106,9 @@ $nav_cta_href = 'contact.php';
       </div>
 
       <div data-reveal class="card" style="padding:clamp(26px,3vw,36px); border:1px solid rgba(255,255,255,.08); border-radius:18px; background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.008));">
-        <div style="display:flex; align-items:flex-start; gap:16px; margin-bottom:16px;">
+        <div style="display:flex; align-items:center; gap:16px; margin-bottom:16px;">
           <div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:50px; height:50px; border-radius:13px; background:rgba(0,229,160,.1); border:1px solid rgba(0,229,160,.22);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M9.5 9.5h4a1.5 1.5 0 0 1 0 3h-3a1.5 1.5 0 0 0 0 3h4"/></svg></div>
-          <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Paid Ads (PPC &amp; LSA)</div><div style="font-size:13px; color:var(--accent); font-weight:600; margin-top:5px;">15% of spend · $3K–5K min budget</div></div>
+          <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Paid Ads (PPC &amp; LSA)</div></div>
         </div>
         <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">The fastest way to fill your schedule — when run correctly. Google Search, Local Service Ads, and Meta campaigns built around one goal: booked jobs, not clicks.</p>
         <div style="display:flex; flex-direction:column; gap:9px;">
@@ -119,9 +119,9 @@ $nav_cta_href = 'contact.php';
       </div>
 
       <div data-reveal class="card" style="padding:clamp(26px,3vw,36px); border:1px solid rgba(255,255,255,.08); border-radius:18px; background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.008));">
-        <div style="display:flex; align-items:flex-start; gap:16px; margin-bottom:16px;">
+        <div style="display:flex; align-items:center; gap:16px; margin-bottom:16px;">
           <div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:50px; height:50px; border-radius:13px; background:rgba(0,229,160,.1); border:1px solid rgba(0,229,160,.22);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.8 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8z"/></svg></div>
-          <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Reputation Management</div><div style="font-size:13px; color:var(--accent); font-weight:600; margin-top:5px;">$300 – $500 / mo</div></div>
+          <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Reputation Management</div></div>
         </div>
         <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">Contractors win on reviews — a 4.9-star profile beats a 3.8 in every market. We build your review count systematically and handle every one the right way.</p>
         <div style="display:flex; flex-direction:column; gap:9px;">
@@ -132,9 +132,9 @@ $nav_cta_href = 'contact.php';
       </div>
 
       <div data-reveal class="card" style="padding:clamp(26px,3vw,36px); border:1px solid rgba(255,255,255,.08); border-radius:18px; background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.008));">
-        <div style="display:flex; align-items:flex-start; gap:16px; margin-bottom:16px;">
+        <div style="display:flex; align-items:center; gap:16px; margin-bottom:16px;">
           <div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:50px; height:50px; border-radius:13px; background:rgba(0,229,160,.1); border:1px solid rgba(0,229,160,.22);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.63 3.4 2 2 0 0 1 3.6 1.21h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.82a16 16 0 0 0 6.29 6.29l.97-.97a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
-          <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Bilingual Dispatch (EN/ES)</div><div style="font-size:13px; color:var(--accent); font-weight:600; margin-top:5px;">$1,800 – $2,500 / mo</div></div>
+          <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Bilingual Dispatch (EN/ES)</div></div>
         </div>
         <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">The fastest way to kill a lead is to miss the call. Our bilingual dispatchers are trained on your business — your services, pricing, and how to book the job.</p>
         <div style="display:flex; flex-direction:column; gap:9px;">
@@ -145,9 +145,9 @@ $nav_cta_href = 'contact.php';
       </div>
 
       <div data-reveal class="card" style="padding:clamp(26px,3vw,36px); border:1px solid rgba(255,255,255,.08); border-radius:18px; background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.008));">
-        <div style="display:flex; align-items:flex-start; gap:16px; margin-bottom:16px;">
+        <div style="display:flex; align-items:center; gap:16px; margin-bottom:16px;">
           <div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:50px; height:50px; border-radius:13px; background:rgba(0,229,160,.1); border:1px solid rgba(0,229,160,.22);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M16 4a3.5 3.5 0 0 1 0 7M21 20c0-2.6-1.5-4.8-3.7-5.7"/></svg></div>
-          <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Subcontractor Sourcing</div><div style="font-size:13px; color:var(--accent); font-weight:600; margin-top:5px;">Custom · by trade &amp; volume</div></div>
+          <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Subcontractor Sourcing</div></div>
         </div>
         <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">Losing a job because you don't have the crew is one of the most expensive problems in contracting. We source, screen, and connect you with qualified subs.</p>
         <div style="display:flex; flex-direction:column; gap:9px;">
@@ -158,9 +158,9 @@ $nav_cta_href = 'contact.php';
       </div>
 
       <div data-reveal class="card" style="padding:clamp(26px,3vw,36px); border:1px solid rgba(255,255,255,.08); border-radius:18px; background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.008));">
-        <div style="display:flex; align-items:flex-start; gap:16px; margin-bottom:16px;">
+        <div style="display:flex; align-items:center; gap:16px; margin-bottom:16px;">
           <div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:50px; height:50px; border-radius:13px; background:rgba(0,229,160,.1); border:1px solid rgba(0,229,160,.22);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M16 6l-4-4-4 4M12 2v13"/></svg></div>
-          <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Social Media Management</div><div style="font-size:13px; color:var(--accent); font-weight:600; margin-top:5px;">$800 – $1,500 / mo</div></div>
+          <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Social Media Management</div></div>
         </div>
         <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">Homeowners choose contractors on trust — and social is where that trust is built before the call. We make you look like the dominant player in your market.</p>
         <div style="display:flex; flex-direction:column; gap:9px;">
@@ -171,9 +171,9 @@ $nav_cta_href = 'contact.php';
       </div>
 
       <div data-reveal class="card" style="padding:clamp(26px,3vw,36px); border:1px solid rgba(255,255,255,.08); border-radius:18px; background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.008));">
-        <div style="display:flex; align-items:flex-start; gap:16px; margin-bottom:16px;">
+        <div style="display:flex; align-items:center; gap:16px; margin-bottom:16px;">
           <div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:50px; height:50px; border-radius:13px; background:rgba(0,229,160,.1); border:1px solid rgba(0,229,160,.22);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg></div>
-          <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Contractor Accreditations</div><div style="font-size:13px; color:var(--accent); font-weight:600; margin-top:5px;">$500 – $1,200 one-time each</div></div>
+          <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Contractor Accreditations</div></div>
         </div>
         <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">Licenses, certifications, and badges aren't paperwork — they're trust signals that close jobs. We help you get them and make sure they're visible everywhere.</p>
         <div style="display:flex; flex-direction:column; gap:9px;">
