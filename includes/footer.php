@@ -4,7 +4,6 @@
     <nav style="display:flex; flex-wrap:wrap; gap:26px; font-size:14px; font-weight:500;">
       <a href="services.php" style="color:#a9adb6;">How We Grow You</a>
       <a href="about.php" style="color:#a9adb6;">About</a>
-      <a href="results.php" style="color:#a9adb6;">Results</a>
       <a href="contact.php" style="color:#a9adb6;">Contact</a>
     </nav>
     <div style="font-size:13px; color:#6b6f79; width:100%; border-top:1px solid rgba(255,255,255,.05); padding-top:22px;">&copy; <?php echo date('Y'); ?> Digital Era Media. Growth partner for the trades.</div>

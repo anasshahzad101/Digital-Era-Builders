@@ -147,7 +147,6 @@ $nav_cta_href = 'contact.php';
       <p style="font-size:clamp(16px,1.5vw,19px); line-height:1.6; color:#9aa0aa; max-width:54ch; margin:0 auto 36px;">Book a free audit. No pitch — we'll look at your setup and tell you exactly what we'd do, whether you hire us or not.</p>
       <div style="display:flex; flex-wrap:wrap; gap:14px; justify-content:center;">
         <a href="contact.php" class="mo-btn" style="font-size:15px; font-weight:700; color:var(--accent-ink); background:var(--accent); padding:16px 28px; border-radius:11px; box-shadow:0 14px 46px -14px rgba(0,229,160,.8);">Book Your Free Audit &rarr;</a>
-        <a href="results.php" class="mo-ghost" style="font-size:15px; font-weight:600; color:#f5f6f8; background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.14); padding:16px 28px; border-radius:11px;">See Our Results</a>
       </div>
     </div>
   </div>

@@ -2,6 +2,13 @@ Options -Indexes
 
 DirectoryIndex index.php
 
+# The Results page was removed. Anyone still holding that URL gets sent home
+# instead of a 404. Drop this block once the old link is no longer in circulation.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^results\.php$ / [R=301,L]
+</IfModule>
+
 <IfModule mod_headers.c>
   Header set X-Content-Type-Options "nosniff"
   Header set X-Frame-Options "SAMEORIGIN"

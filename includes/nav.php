@@ -1,14 +1,13 @@
 <?php
 // Shared site navigation.
 // Before including, optionally set:
-//   $active       — 'services' | 'trades' | 'results' | 'about' | 'contact'
+//   $active       — 'services' | 'trades' | 'about' | 'contact'
 //   $nav_cta_href — where the "See If We're a Fit" button points (default contact.php)
 $active = $active ?? '';
 $nav_cta_href = $nav_cta_href ?? 'contact.php';
 $nav_items = [
   ['services', 'services.php', 'How We Grow You'],
   ['trades', 'index.php#trades', 'Who We Work With'],
-  ['results', 'results.php', 'Results'],
   ['about', 'about.php', 'About'],
   ['contact', 'contact.php', 'Contact'],
 ];
