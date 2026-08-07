@@ -6,7 +6,7 @@ define('CONTACT_EMAIL', 'digitaleramediala@gmail.com');
 
 define('SITE_NAME', 'Digital Era Media');
 
-// Public phone number. Update both once you have the business line —
+// Public phone number.
 // display is what visitors see, tel is what their phone dials.
-define('SITE_PHONE_DISPLAY', '(___) ___-____'); // e.g. (213) 555-0117
-define('SITE_PHONE_TEL', '+1');                 // e.g. +12135550117
+define('SITE_PHONE_DISPLAY', '(818) 626-4133');
+define('SITE_PHONE_TEL', '+18186264133');
