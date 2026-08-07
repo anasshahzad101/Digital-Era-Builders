@@ -10,7 +10,6 @@ see [DEPLOY.md](DEPLOY.md) for step-by-step instructions).
 |---|---|
 | `index.php` | Home — hero, services overview, process, trades selector, testimonials, FAQ, fit check |
 | `services.php` | How We Grow You — all nine services + pricing plans |
-| `results.php` | Results — The Roofer Bros case study and growth timeline |
 | `about.php` | About — origin story, contractor advantage, who we work with |
 | `contact.php` | Contact — free audit request form + fit check |
 

@@ -373,7 +373,6 @@ $trades = [
         <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(38px,5vw,64px); letter-spacing:-.03em; line-height:1; color:var(--accent);">$1M+</div><div style="font-size:14px; color:#9aa0aa; margin-top:12px; line-height:1.4;">Ad spend managed</div></div>
         <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(38px,5vw,64px); letter-spacing:-.03em; line-height:1; color:var(--accent);">#1</div><div style="font-size:14px; color:#9aa0aa; margin-top:12px; line-height:1.4;">SEO rankings across primary keywords</div></div>
       </div>
-      <a href="results.php" class="mo-btn" style="display:inline-block; margin-top:44px; font-size:15px; font-weight:700; color:var(--accent-ink); background:var(--accent); padding:16px 26px; border-radius:11px; box-shadow:0 14px 40px -16px rgba(0,229,160,.7);">See How We Did It &rarr;</a>
     </div>
   </div>
 

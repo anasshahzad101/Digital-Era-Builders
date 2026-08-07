@@ -127,17 +127,17 @@
         title: "You're exactly who we work with.",
         sub: "Based on where you are and where you want to go, we can build a system that gets you there. We have limited spots — let's talk before one opens up to someone else.",
         ctaLabel: "Book Your Free Audit →", ctaHref: "contact.php",
-        linkLabel: "See how we grew The Roofer Bros to 8 figures first", linkHref: "results.php" },
+        linkLabel: null, linkHref: null },
       maybe: { tag: "Getting There", cls: "yellow", icon: "◐",
         title: "You're close — but not quite ready.",
         sub: "You have the foundation, but a few pieces need to be in place before we can get you real results. We don't want to take your money and underdeliver — see what we've built, and come back when you're ready to go all in.",
-        ctaLabel: "See The Roofer Bros Case Study →", ctaHref: "results.php",
-        linkLabel: "Still want to talk? We'll be honest with you.", linkHref: "contact.php" },
+        ctaLabel: "Talk to Us — We'll Be Honest →", ctaHref: "contact.php",
+        linkLabel: null, linkHref: null },
       no: { tag: "Not Right Now", cls: "red", icon: "✕",
         title: "We're not the right partner for you yet.",
         sub: "That's not a knock — it just means the timing isn't right. We only take on clients where we're confident we can deliver, and right now we'd be setting you up to spend money you're not ready to spend. Build your foundation first — when the revenue is there, we'll be here.",
         ctaLabel: null, ctaHref: null,
-        linkLabel: "Read our case study while you build", linkHref: "results.php" }
+        linkLabel: null, linkHref: null }
     };
 
     var state = { open: false, step: 1, scores: {}, result: null };
@@ -186,8 +186,9 @@
       var cta = el('fc-cta');
       cta.hidden = !r.ctaLabel;
       if (r.ctaLabel) { cta.textContent = r.ctaLabel; cta.href = r.ctaHref; }
-      el('fc-rlink').textContent = r.linkLabel;
-      el('fc-rlink').href = r.linkHref;
+      var rlink = el('fc-rlink');
+      rlink.hidden = !r.linkLabel;
+      if (r.linkLabel) { rlink.textContent = r.linkLabel; rlink.href = r.linkHref; }
       replay(resultBox);
     }
 
