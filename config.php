@@ -1,8 +1,12 @@
 <?php
 // Site-wide settings — edit these before going live.
 
-// Where "Free Audit" form submissions are emailed.
+// Where "Free Audit" form submissions are emailed. Deliberately different from
+// PUBLIC_EMAIL below — leads keep landing in the Gmail inbox that's known to work.
 define('CONTACT_EMAIL', 'digitaleramediala@gmail.com');
+
+// The address shown to visitors on the contact page.
+define('PUBLIC_EMAIL', 'sam@digitaleramedia.io');
 
 define('SITE_NAME', 'Digital Era Media');
 

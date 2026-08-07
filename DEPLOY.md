@@ -9,7 +9,11 @@ Edit `config.php`:
 
 1. `CONTACT_EMAIL` — where audit-request leads are emailed (currently
    `digitaleramediala@gmail.com`).
-2. `SITE_PHONE_DISPLAY` / `SITE_PHONE_TEL` — the real business phone number
+2. `PUBLIC_EMAIL` — the address shown to visitors on the contact page (currently
+   `sam@digitaleramedia.io`). Intentionally different from `CONTACT_EMAIL`: leads
+   keep going to the Gmail inbox. Point `CONTACT_EMAIL` here too once
+   `sam@digitaleramedia.io` is confirmed to be receiving mail.
+3. `SITE_PHONE_DISPLAY` / `SITE_PHONE_TEL` — the real business phone number
    (currently `(818) 626-4133`).
 
 ## Option A — Git deployment (recommended)
