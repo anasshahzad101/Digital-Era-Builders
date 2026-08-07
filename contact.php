@@ -131,7 +131,7 @@ $error = isset($_GET['error']);
         </div>
         <div style="border:1px solid rgba(255,255,255,.08); border-radius:16px; background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.006)); padding:clamp(24px,3vw,30px);">
           <h3 style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:17px; margin:0 0 6px;">Email</h3>
-          <a href="mailto:digitaleramediala@gmail.com" style="font-size:15px;">digitaleramediala@gmail.com</a>
+          <a href="mailto:<?php echo htmlspecialchars(PUBLIC_EMAIL); ?>" style="font-size:15px;"><?php echo htmlspecialchars(PUBLIC_EMAIL); ?></a>
         </div>
         <div style="border:1px solid rgba(0,229,160,.22); border-radius:16px; background:linear-gradient(180deg, rgba(0,229,160,.05), rgba(255,255,255,.008)); padding:clamp(24px,3vw,30px);">
           <h4 style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:15px; color:var(--accent); margin:0 0 10px;">Our commitment to you</h4>
