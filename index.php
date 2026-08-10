@@ -98,6 +98,13 @@ $trades = [
   @media (prefers-reduced-motion: reduce) {
     .mo-pills > div, .mo-btn, .mo-ghost, .svc-grid > div svg { transition: none !important; transform: none !important; }
   }
+  /* Founder quote — quote body beside an attribution rail, stacked on narrow screens */
+  .founder-quote { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 290px); gap: clamp(30px, 4vw, 60px); align-items: stretch; }
+  .founder-quote > .fq-attr { display: flex; flex-direction: column; justify-content: center; border-left: 1px solid rgba(255,255,255,.1); padding-left: clamp(30px, 4vw, 60px); }
+  @media (max-width: 860px) {
+    .founder-quote { grid-template-columns: 1fr; gap: 30px; }
+    .founder-quote > .fq-attr { border-left: 0; border-top: 1px solid rgba(255,255,255,.1); padding-left: 0; padding-top: 30px; }
+  }
   /* Interactive trades — selectable pills + detail panel */
   .trade-pill { appearance:none; -webkit-appearance:none; padding:14px 22px; border-radius:100px; font-size:15px; font-weight:600; color:#d6d9df; background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.1); cursor:pointer; font-family:inherit; transition: transform .3s cubic-bezier(.16,.84,.44,1), border-color .3s ease, background .3s ease, color .3s ease, box-shadow .3s ease; }
   @media (hover:hover) { .trade-pill:hover { transform:translateY(-4px); border-color:rgba(0,229,160,.5); background:rgba(0,229,160,.08); color:#eafff7; } }
@@ -325,20 +332,21 @@ $trades = [
     </div>
   </section>
 
-  <!-- TESTIMONIALS -->
+  <!-- FOUNDER QUOTE -->
   <section style="position:relative; z-index:1; max-width:1180px; margin:0 auto; padding:clamp(80px,10vw,130px) clamp(20px,5vw,56px);">
     <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1), transform .8s cubic-bezier(.16,.84,.44,1); max-width:60ch;">
       <div style="display:inline-block; font-size:13px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:var(--accent); margin-bottom:18px;">From The Founder</div>
-      <h2 style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(30px,4.4vw,54px); line-height:1.04; letter-spacing:-.03em; margin:0;">We ran the playbook on ourselves first.</h2>
+      <h2 style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(30px,4.4vw,54px); line-height:1.04; letter-spacing:-.03em; margin:0;">We ran the playbook on <span style="color:var(--accent);">ourselves first.</span></h2>
     </div>
-    <div class="mo-grid" style="display:grid; grid-template-columns:1fr; max-width:820px; margin-top:clamp(40px,4vw,56px);">
-      <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1), transform .8s cubic-bezier(.16,.84,.44,1); display:flex; flex-direction:column; padding:clamp(30px,3.4vw,44px); border:1px solid rgba(255,255,255,.08); border-radius:18px; background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.008));">
-        <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:52px; line-height:.6; color:var(--accent); opacity:.5; margin-bottom:16px;">&ldquo;</div>
-        <p style="font-size:clamp(17px,1.7vw,21px); line-height:1.6; color:#d6d9df; margin:0 0 28px;">I spent years running marketing for other people's businesses. Then I bet on myself, started The Roofer Bros, and ran the same playbook on my own company. Eight figures in under 24 months. Now I run it for other contractors who are ready to stop guessing.</p>
-        <div style="display:flex; align-items:center; gap:14px; padding-top:22px; border-top:1px solid rgba(255,255,255,.07);">
-          <div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:44px; height:44px; border-radius:50%; background:rgba(0,229,160,.12); border:1px solid rgba(0,229,160,.24); font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:15px; color:var(--accent);">SR</div>
-          <div><div style="font-size:15px; font-weight:700; color:#f5f6f8;">Sako Rassam</div><div style="font-size:13px; color:#8b8f99; margin-top:2px;">Founder, The Roofer Bros and Digital Era Media</div></div>
-        </div>
+    <div data-reveal class="mo-card founder-quote" style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .1s, transform .8s cubic-bezier(.16,.84,.44,1) .1s; margin-top:clamp(40px,4vw,56px); border:1px solid rgba(0,229,160,.18); border-radius:20px; background:linear-gradient(180deg, rgba(0,229,160,.05), rgba(255,255,255,.008)); box-shadow:0 40px 90px -50px rgba(0,229,160,.5); padding:clamp(30px,3.6vw,50px);">
+      <blockquote style="margin:0;">
+        <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:60px; line-height:.6; color:var(--accent); opacity:.5; margin-bottom:12px;">&ldquo;</div>
+        <p style="font-size:clamp(17px,1.8vw,23px); line-height:1.58; letter-spacing:-.01em; color:#e4e7ec; margin:0;">I spent years running marketing for other people's businesses. Then I bet on myself, started The Roofer Bros, and ran the same playbook on my own company. Eight figures in under 24 months. Now I run it for other contractors who are ready to stop guessing.</p>
+      </blockquote>
+      <div class="fq-attr">
+        <div style="display:flex; align-items:center; justify-content:center; width:54px; height:54px; border-radius:50%; background:rgba(0,229,160,.12); border:1px solid rgba(0,229,160,.28); font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:17px; color:var(--accent); margin-bottom:18px;">SR</div>
+        <div style="font-family:'Space Grotesk',sans-serif; font-size:18px; font-weight:700; color:#f5f6f8; letter-spacing:-.01em;">Sako Rassam</div>
+        <div style="font-size:14px; color:#8b8f99; margin-top:6px; line-height:1.5;">Founder, The Roofer Bros and Digital Era Media</div>
       </div>
     </div>
   </section>
