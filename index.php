@@ -148,11 +148,11 @@ $trades = [
       </div>
       <div style="background:#0a0b11; padding:28px 30px;">
         <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(30px,3vw,40px); letter-spacing:-.03em; line-height:1;">6-<span style="color:var(--accent);">MONTH</span></div>
-        <div style="font-size:13.5px; color:#8b8f99; margin-top:10px; line-height:1.4;">Minimum — lowest in the industry</div>
+        <div style="font-size:13.5px; color:#8b8f99; margin-top:10px; line-height:1.4;">Minimum, then month-to-month — no year-long lock-ins</div>
       </div>
       <div style="background:#0a0b11; padding:28px 30px;">
-        <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(30px,3vw,40px); letter-spacing:-.03em; line-height:1;">#1-<span style="color:var(--accent);">RANKING</span></div>
-        <div style="font-size:13.5px; color:#8b8f99; margin-top:10px; line-height:1.4;">Google rankings in every market entered</div>
+        <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(30px,3vw,40px); letter-spacing:-.03em; line-height:1;">TOP-<span style="color:var(--accent);">RANKING</span></div>
+        <div style="font-size:13.5px; color:#8b8f99; margin-top:10px; line-height:1.4;">Google rankings across every market we've entered</div>
       </div>
     </div>
   </section>
@@ -252,7 +252,7 @@ $trades = [
         <p style="font-size:clamp(15px,1.4vw,17px); line-height:1.7; color:#9aa0aa; margin:0 0 30px; max-width:52ch;">Every agency you've ever hired sent reports. We send results. There's no account manager who's never touched a job site, no strategy built from a template, no upsell to services you don't need. Just someone who's run a contracting company and knows exactly what moves the needle.</p>
         <div style="display:flex; flex-direction:column; gap:14px;">
           <div style="display:flex; align-items:flex-start; gap:13px;"><span style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:6px; background:rgba(0,229,160,.14); color:var(--accent); font-size:12px; font-weight:800;">&#10003;</span><span style="font-size:15px; color:#c7cbd3; line-height:1.5;">We report calls, booked jobs, and revenue — not impressions</span></div>
-          <div style="display:flex; align-items:flex-start; gap:13px;"><span style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:6px; background:rgba(0,229,160,.14); color:var(--accent); font-size:12px; font-weight:800;">&#10003;</span><span style="font-size:15px; color:#c7cbd3; line-height:1.5;">6-month minimum — the lowest commitment you'll find anywhere</span></div>
+          <div style="display:flex; align-items:flex-start; gap:13px;"><span style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:6px; background:rgba(0,229,160,.14); color:var(--accent); font-size:12px; font-weight:800;">&#10003;</span><span style="font-size:15px; color:#c7cbd3; line-height:1.5;">6-month minimum, then month-to-month — no year-long lock-ins</span></div>
           <div style="display:flex; align-items:flex-start; gap:13px;"><span style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:6px; background:rgba(0,229,160,.14); color:var(--accent); font-size:12px; font-weight:800;">&#10003;</span><span style="font-size:15px; color:#c7cbd3; line-height:1.5;">One point of contact who knows your business inside out</span></div>
           <div style="display:flex; align-items:flex-start; gap:13px;"><span style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:6px; background:rgba(0,229,160,.14); color:var(--accent); font-size:12px; font-weight:800;">&#10003;</span><span style="font-size:15px; color:#c7cbd3; line-height:1.5;">Strategy built for your trade, your market, your margins</span></div>
           <div style="display:flex; align-items:flex-start; gap:13px;"><span style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:6px; background:rgba(0,229,160,.14); color:var(--accent); font-size:12px; font-weight:800;">&#10003;</span><span style="font-size:15px; color:#c7cbd3; line-height:1.5;">Full transparency — real-time access to every dollar and every metric</span></div>
@@ -361,9 +361,9 @@ $trades = [
       </div>
       <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:clamp(24px,4vw,48px); max-width:920px; margin:0 auto;">
         <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(38px,5vw,64px); letter-spacing:-.03em; line-height:1; color:var(--accent);">8-Fig</div><div style="font-size:14px; color:#9aa0aa; margin-top:12px; line-height:1.4;">Annual revenue in under 24 months</div></div>
-        <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(38px,5vw,64px); letter-spacing:-.03em; line-height:1; color:var(--accent);">500+</div><div style="font-size:14px; color:#9aa0aa; margin-top:12px; line-height:1.4;">Google reviews at 4.9 stars</div></div>
+        <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(38px,5vw,64px); letter-spacing:-.03em; line-height:1; color:var(--accent);">500+</div><div style="font-size:14px; color:#9aa0aa; margin-top:12px; line-height:1.4;">Reviews online at 4.9 stars</div></div>
         <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(38px,5vw,64px); letter-spacing:-.03em; line-height:1; color:var(--accent);">$1M+</div><div style="font-size:14px; color:#9aa0aa; margin-top:12px; line-height:1.4;">Ad spend managed</div></div>
-        <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(38px,5vw,64px); letter-spacing:-.03em; line-height:1; color:var(--accent);">#1</div><div style="font-size:14px; color:#9aa0aa; margin-top:12px; line-height:1.4;">SEO rankings across primary keywords</div></div>
+        <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(38px,5vw,64px); letter-spacing:-.03em; line-height:1; color:var(--accent);">Top</div><div style="font-size:14px; color:#9aa0aa; margin-top:12px; line-height:1.4;">SEO rankings across primary keywords</div></div>
       </div>
     </div>
   </div>
@@ -381,7 +381,7 @@ $trades = [
       </details>
       <details class="faq">
         <summary>Why only a 6-month minimum?<span class="chev"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></summary>
-        <div class="ans">Real growth compounds — six months is the shortest honest window to build the systems, feed the data, and show revenue you can bank. It's the lowest commitment in the industry, and after that we're month-to-month. We'd rather earn your business every month than trap you in a year-long contract.</div>
+        <div class="ans">Real growth compounds — six months is the shortest honest window to build the systems, feed the data, and show revenue you can bank. After that we're month-to-month. We'd rather earn your business every month than trap you in a year-long contract.</div>
       </details>
       <details class="faq">
         <summary>Which trades do you work with?<span class="chev"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></summary>

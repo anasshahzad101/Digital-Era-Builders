@@ -191,7 +191,7 @@ $nav_cta_href = 'contact.php';
       <div data-reveal style="max-width:60ch; margin-bottom:clamp(32px,4vw,48px);">
         <div style="display:inline-block; font-size:13px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:var(--accent); margin-bottom:18px;">Pricing</div>
         <h2 style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(30px,4.4vw,54px); line-height:1.04; letter-spacing:-.03em; margin:0 0 16px;">Three ways to get started.</h2>
-        <p style="font-size:clamp(15px,1.4vw,18px); line-height:1.6; color:#9aa0aa; margin:0;">Every plan includes a dedicated point of contact and a 6-month minimum — the lowest commitment in the industry.</p>
+        <p style="font-size:clamp(15px,1.4vw,18px); line-height:1.6; color:#9aa0aa; margin:0;">Every plan includes a dedicated point of contact and a 6-month minimum, then month-to-month. No year-long lock-ins like most agencies push.</p>
       </div>
       <div class="price3">
         <div data-reveal class="card" style="padding:clamp(28px,3vw,36px); border:1px solid rgba(255,255,255,.08); border-radius:18px; background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.008));">
