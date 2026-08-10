@@ -10,10 +10,10 @@ $error = isset($_GET['error']);
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Contact — Book Your Free Audit | Digital Era Media</title>
-<meta name="description" content="Book your free audit. No pitch, just answers: we benchmark you against your top competitors and show you exactly what we'd do — whether you hire us or not.">
-<meta property="og:title" content="Contact — Book Your Free Audit | Digital Era Media">
-<meta property="og:description" content="Book your free audit. No pitch, just answers: we benchmark you against your top competitors and show you exactly what we'd do — whether you hire us or not.">
+<title>Contact: Book Your Free Audit | Digital Era Media</title>
+<meta name="description" content="Book your free audit. No pitch, just answers: we benchmark you against your top competitors and show you exactly what we'd do, whether you hire us or not.">
+<meta property="og:title" content="Contact: Book Your Free Audit | Digital Era Media">
+<meta property="og:description" content="Book your free audit. No pitch, just answers: we benchmark you against your top competitors and show you exactly what we'd do, whether you hire us or not.">
 <meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2300e5a0'/%3E%3Ctext x='32' y='44' font-family='Arial, sans-serif' font-size='32' font-weight='800' text-anchor='middle' fill='%2304120c'%3EDE%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,7 +56,7 @@ $error = isset($_GET['error']);
   <section style="position:relative; z-index:1; max-width:1180px; margin:0 auto; padding:clamp(60px,9vw,116px) clamp(20px,5vw,56px) clamp(24px,4vw,40px);">
     <div data-reveal style="display:inline-block; font-size:13px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:var(--accent); margin-bottom:20px;">Contact</div>
     <h1 data-reveal style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(40px,6.2vw,80px); line-height:1; letter-spacing:-.035em; margin:0 0 22px; max-width:16ch; text-wrap:balance;">Book your free audit. <span style="color:var(--accent);">No pitch. Just answers.</span></h1>
-    <p data-reveal style="font-size:clamp(17px,1.6vw,21px); line-height:1.6; color:#b4b8c2; max-width:58ch; margin:0;">We'll look at your current setup, benchmark you against your top competitors, and show you exactly what we'd do — whether you hire us or not.</p>
+    <p data-reveal style="font-size:clamp(17px,1.6vw,21px); line-height:1.6; color:#b4b8c2; max-width:58ch; margin:0;">We'll look at your current setup, benchmark you against your top competitors, and show you exactly what we'd do, whether you hire us or not.</p>
   </section>
 
   <!-- FORM + INFO -->
@@ -74,7 +74,7 @@ $error = isset($_GET['error']);
           <div>
             <h3 style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em; margin:0 0 22px;">Tell us about your business</h3>
             <?php if ($error): ?>
-            <div style="border:1px solid rgba(255,107,107,.4); border-radius:10px; background:rgba(255,107,107,.08); color:#ffb4b4; font-size:14px; padding:13px 16px; margin-bottom:18px;">Something was missing or invalid — please check the required fields and try again.</div>
+            <div style="border:1px solid rgba(255,107,107,.4); border-radius:10px; background:rgba(255,107,107,.08); color:#ffb4b4; font-size:14px; padding:13px 16px; margin-bottom:18px;">Something was missing or invalid. Please check the required fields and try again.</div>
             <?php endif; ?>
             <form class="fin" action="send-audit.php" method="post" style="display:flex; flex-direction:column; gap:18px;">
               <div style="position:absolute; left:-9999px;" aria-hidden="true"><label>Website</label><input type="text" name="website" tabindex="-1" autocomplete="off"></div>
@@ -101,7 +101,7 @@ $error = isset($_GET['error']);
               <div><label>Current Monthly Ad Spend</label>
                 <select name="adspend">
                   <option value="" disabled selected>How much are you spending on ads?</option>
-                  <option>$0 — not running ads yet</option><option>Under $1,000/month</option><option>$1,000 – $3,000/month</option>
+                  <option>$0, not running ads yet</option><option>Under $1,000/month</option><option>$1,000 – $3,000/month</option>
                   <option>$3,000 – $10,000/month</option><option>$10,000+/month</option>
                 </select>
               </div>
@@ -118,9 +118,9 @@ $error = isset($_GET['error']);
         <div style="border:1px solid rgba(255,255,255,.08); border-radius:16px; background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.006)); padding:clamp(24px,3vw,30px);">
           <h3 style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:17px; margin:0 0 18px;">What happens next</h3>
           <div style="display:flex; flex-direction:column; gap:16px;">
-            <div style="display:flex; gap:14px; align-items:flex-start;"><div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:28px; height:28px; border-radius:50%; background:rgba(0,229,160,.1); border:1px solid var(--accent); color:var(--accent); font-size:13px; font-weight:700;">1</div><div><div style="font-size:14.5px; font-weight:600; color:#f5f6f8; margin-bottom:3px;">We review your submission</div><p style="font-size:13.5px; color:#8b8f99; line-height:1.5; margin:0;">Your business, market, and competitors — before we ever get on a call.</p></div></div>
+            <div style="display:flex; gap:14px; align-items:flex-start;"><div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:28px; height:28px; border-radius:50%; background:rgba(0,229,160,.1); border:1px solid var(--accent); color:var(--accent); font-size:13px; font-weight:700;">1</div><div><div style="font-size:14.5px; font-weight:600; color:#f5f6f8; margin-bottom:3px;">We review your submission</div><p style="font-size:13.5px; color:#8b8f99; line-height:1.5; margin:0;">Your business, market, and competitors, before we ever get on a call.</p></div></div>
             <div style="display:flex; gap:14px; align-items:flex-start;"><div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:28px; height:28px; border-radius:50%; background:rgba(0,229,160,.1); border:1px solid var(--accent); color:var(--accent); font-size:13px; font-weight:700;">2</div><div><div style="font-size:14.5px; font-weight:600; color:#f5f6f8; margin-bottom:3px;">We schedule a 30-min audit call</div><p style="font-size:13.5px; color:#8b8f99; line-height:1.5; margin:0;">We show you where your market share is going and what competitors do that you don't.</p></div></div>
-            <div style="display:flex; gap:14px; align-items:flex-start;"><div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:28px; height:28px; border-radius:50%; background:rgba(0,229,160,.1); border:1px solid var(--accent); color:var(--accent); font-size:13px; font-weight:700;">3</div><div><div style="font-size:14.5px; font-weight:600; color:#f5f6f8; margin-bottom:3px;">You get a clear game plan</div><p style="font-size:13.5px; color:#8b8f99; line-height:1.5; margin:0;">Hire us or not — you leave with specific actions that move your business forward.</p></div></div>
+            <div style="display:flex; gap:14px; align-items:flex-start;"><div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:28px; height:28px; border-radius:50%; background:rgba(0,229,160,.1); border:1px solid var(--accent); color:var(--accent); font-size:13px; font-weight:700;">3</div><div><div style="font-size:14.5px; font-weight:600; color:#f5f6f8; margin-bottom:3px;">You get a clear game plan</div><p style="font-size:13.5px; color:#8b8f99; line-height:1.5; margin:0;">Hire us or not, you leave with specific actions that move your business forward.</p></div></div>
           </div>
         </div>
         <div style="border:1px solid rgba(255,255,255,.08); border-radius:16px; background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.006)); padding:clamp(24px,3vw,30px);">

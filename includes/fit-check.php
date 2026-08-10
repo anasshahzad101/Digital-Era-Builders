@@ -1,4 +1,4 @@
-<?php // Interactive "Fit Check" quiz — shared by index.php and contact.php. ?>
+<?php // Interactive "Fit Check" quiz, shared by index.php and contact.php. ?>
 <style>
   .fc-root { font-family:'Manrope',system-ui,sans-serif; }
   .fc-root a { text-decoration:none; }
@@ -83,7 +83,7 @@
 <script>
   (function () {
     var Q = [
-      { q: "What is your current annual revenue?", sub: "Be honest — this helps us give you an accurate answer.", options: [
+      { q: "What is your current annual revenue?", sub: "Be honest. This helps us give you an accurate answer.", options: [
         { label: "Under $300K", score: -2, tone: "red" },
         { label: "$300K – $499K", score: 0, tone: "yellow" },
         { label: "$500K – $1M", score: 2, tone: "green" },
@@ -91,51 +91,51 @@
         { label: "$3M+", score: 3, tone: "green" }
       ]},
       { q: "How many crews are you running right now?", sub: "This tells us if you have capacity to handle more leads.", options: [
-        { label: "Just me — I'm still doing the work myself", score: -2, tone: "red" },
+        { label: "Just me, I'm still doing the work myself", score: -2, tone: "red" },
         { label: "1 crew", score: 0, tone: "yellow" },
         { label: "2–3 crews", score: 2, tone: "green" },
         { label: "4+ crews", score: 3, tone: "green" }
       ]},
       { q: "Who handles your incoming calls and bookings?", sub: "Leads mean nothing if no one picks up.", options: [
-        { label: "Me — calls go to my cell", score: -1, tone: "red" },
+        { label: "Me, calls go to my cell", score: -1, tone: "red" },
         { label: "Part-time or inconsistent", score: 1, tone: "yellow" },
         { label: "Office staff or answering service", score: 2, tone: "green" },
         { label: "Dedicated dispatcher", score: 3, tone: "green" }
       ]},
-      { q: "What are you willing to invest in ads monthly?", sub: "We manage the campaigns — this is the budget you put into the platforms.", options: [
+      { q: "What are you willing to invest in ads monthly?", sub: "We manage the campaigns. This is the budget you put into the platforms.", options: [
         { label: "I don't want to spend on ads", score: -2, tone: "red" },
         { label: "Under $1,500/month", score: -1, tone: "red" },
         { label: "$1,500 – $3,000/month", score: 1, tone: "yellow" },
         { label: "$3,000 – $6,000/month", score: 2, tone: "green" },
         { label: "$6,000+/month", score: 3, tone: "green" }
       ]},
-      { q: "Where do you want to be in 18 months?", sub: "Be specific — vague goals get vague results.", options: [
+      { q: "Where do you want to be in 18 months?", sub: "Be specific. Vague goals get vague results.", options: [
         { label: "I just want a few more consistent jobs", score: -1, tone: "red" },
         { label: "I want to grow but I'm not sure by how much", score: 1, tone: "yellow" },
         { label: "I want to double my revenue", score: 2, tone: "green" },
         { label: "I have a specific target and I'm ready to invest to hit it", score: 3, tone: "green" }
       ]},
-      { q: "What's your biggest bottleneck right now?", sub: "Honest answer only — it changes what we'd recommend.", options: [
-        { label: "Capacity — I can't handle more work right now", score: -1, tone: "red" },
-        { label: "Both — I need more leads AND more capacity", score: 1, tone: "yellow" },
-        { label: "Leads — I have the crew, I need the jobs", score: 2, tone: "green" },
-        { label: "Conversion — I get leads but need to close more", score: 2, tone: "green" }
+      { q: "What's your biggest bottleneck right now?", sub: "Honest answer only. It changes what we'd recommend.", options: [
+        { label: "Capacity: I can't handle more work right now", score: -1, tone: "red" },
+        { label: "Both: I need more leads AND more capacity", score: 1, tone: "yellow" },
+        { label: "Leads: I have the crew, I need the jobs", score: 2, tone: "green" },
+        { label: "Conversion: I get leads but need to close more", score: 2, tone: "green" }
       ]}
     ];
     var RESULTS = {
       strong: { tag: "Strong Fit", cls: "green", icon: "✓",
         title: "You're exactly who we work with.",
-        sub: "Based on where you are and where you want to go, we can build a system that gets you there. We have limited spots — let's talk before one opens up to someone else.",
+        sub: "Based on where you are and where you want to go, we can build a system that gets you there. We have limited spots. Let's talk before one opens up to someone else.",
         ctaLabel: "Book Your Free Audit →", ctaHref: "contact.php",
         linkLabel: null, linkHref: null },
       maybe: { tag: "Getting There", cls: "yellow", icon: "◐",
-        title: "You're close — but not quite ready.",
-        sub: "You have the foundation, but a few pieces need to be in place before we can get you real results. We don't want to take your money and underdeliver — see what we've built, and come back when you're ready to go all in.",
-        ctaLabel: "Talk to Us — We'll Be Honest →", ctaHref: "contact.php",
+        title: "You're close, but not quite ready.",
+        sub: "You have the foundation, but a few pieces need to be in place before we can get you real results. We don't want to take your money and underdeliver. See what we've built, and come back when you're ready to go all in.",
+        ctaLabel: "Talk to Us. We'll Be Honest →", ctaHref: "contact.php",
         linkLabel: null, linkHref: null },
       no: { tag: "Not Right Now", cls: "red", icon: "✕",
         title: "We're not the right partner for you yet.",
-        sub: "That's not a knock — it just means the timing isn't right. We only take on clients where we're confident we can deliver, and right now we'd be setting you up to spend money you're not ready to spend. Build your foundation first — when the revenue is there, we'll be here.",
+        sub: "That's not a knock. It just means the timing isn't right. We only take on clients where we're confident we can deliver, and right now we'd be setting you up to spend money you're not ready to spend. Build your foundation first. When the revenue is there, we'll be here.",
         ctaLabel: null, ctaHref: null,
         linkLabel: null, linkHref: null }
     };

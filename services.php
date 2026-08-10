@@ -8,9 +8,9 @@ $nav_cta_href = 'contact.php';
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>How We Grow You — Digital Era Media</title>
+<title>How We Grow You | Digital Era Media</title>
 <meta name="description" content="Nine revenue-driving services, one partner: website, local SEO, Google Business Profile, paid ads, reputation, bilingual dispatch, subcontractor sourcing, and more.">
-<meta property="og:title" content="How We Grow You — Digital Era Media">
+<meta property="og:title" content="How We Grow You | Digital Era Media">
 <meta property="og:description" content="Nine revenue-driving services, one partner: website, local SEO, Google Business Profile, paid ads, reputation, bilingual dispatch, subcontractor sourcing, and more.">
 <meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2300e5a0'/%3E%3Ctext x='32' y='44' font-family='Arial, sans-serif' font-size='32' font-weight='800' text-anchor='middle' fill='%2304120c'%3EDE%3C/text%3E%3C/svg%3E">
@@ -53,7 +53,7 @@ $nav_cta_href = 'contact.php';
   <section style="position:relative; z-index:1; max-width:1180px; margin:0 auto; padding:clamp(60px,9vw,116px) clamp(20px,5vw,56px) clamp(36px,5vw,56px);">
     <div data-reveal style="display:inline-block; font-size:13px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:var(--accent); margin-bottom:20px;">How We Grow You</div>
     <h1 data-reveal style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(40px,6.4vw,84px); line-height:1; letter-spacing:-.035em; margin:0 0 22px; max-width:16ch; text-wrap:balance;">Everything that fills <span style="color:var(--accent);">your schedule.</span></h1>
-    <p data-reveal style="font-size:clamp(17px,1.6vw,21px); line-height:1.6; color:#b4b8c2; max-width:56ch; margin:0;">Nine revenue-driving services. One partner. One invoice covering your entire digital growth engine — built exclusively for contractor trades.</p>
+    <p data-reveal style="font-size:clamp(17px,1.6vw,21px); line-height:1.6; color:#b4b8c2; max-width:56ch; margin:0;">Nine revenue-driving services. One partner. One invoice covering your entire digital growth engine, built exclusively for contractor trades.</p>
   </section>
 
   <!-- STATEMENT -->
@@ -71,7 +71,7 @@ $nav_cta_href = 'contact.php';
           <div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:50px; height:50px; border-radius:13px; background:rgba(0,229,160,.1); border:1px solid rgba(0,229,160,.22);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
           <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Website Dev &amp; Optimization</div></div>
         </div>
-        <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">Your website is your #1 sales rep — it works 24/7 and closes jobs while you sleep. We build high-converting contractor sites and keep them optimized every month.</p>
+        <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">Your website is your #1 sales rep. It works 24/7 and closes jobs while you sleep. We build high-converting contractor sites and keep them optimized every month.</p>
         <div style="display:flex; flex-direction:column; gap:9px;">
           <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">Custom-built around your trade, service area, and target jobs</span></div>
           <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">Speed-optimized, mobile-first, click-to-call throughout</span></div>
@@ -84,11 +84,11 @@ $nav_cta_href = 'contact.php';
           <div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:50px; height:50px; border-radius:13px; background:rgba(0,229,160,.1); border:1px solid rgba(0,229,160,.22);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></div>
           <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Local SEO</div></div>
         </div>
-        <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">Organic leads are the cheapest leads you'll ever get. We dominate Google for every service + city in your market — so you're the obvious answer at 11pm.</p>
+        <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">Organic leads are the cheapest leads you'll ever get. We dominate Google for every service + city in your market, so you're the obvious answer at 11pm.</p>
         <div style="display:flex; flex-direction:column; gap:9px;">
           <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">Full keyword map: every service × every target city</span></div>
           <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">On-page + technical SEO, schema, Core Web Vitals</span></div>
-          <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">Monthly rank tracking — keywords, not just traffic</span></div>
+          <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">Monthly rank tracking: keywords, not just traffic</span></div>
         </div>
       </div>
 
@@ -97,7 +97,7 @@ $nav_cta_href = 'contact.php';
           <div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:50px; height:50px; border-radius:13px; background:rgba(0,229,160,.1); border:1px solid rgba(0,229,160,.22);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
           <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Google Business Profile</div></div>
         </div>
-        <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">Your GBP is often the first thing a customer sees — before your site, before your ads. We turn yours into a lead machine with weekly activity Google rewards.</p>
+        <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">Your GBP is often the first thing a customer sees, before your site, before your ads. We turn yours into a lead machine with weekly activity Google rewards.</p>
         <div style="display:flex; flex-direction:column; gap:9px;">
           <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">Weekly posts, geotagged photos, Q&amp;A seeding</span></div>
           <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">Every review answered within 24 hours</span></div>
@@ -110,11 +110,11 @@ $nav_cta_href = 'contact.php';
           <div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:50px; height:50px; border-radius:13px; background:rgba(0,229,160,.1); border:1px solid rgba(0,229,160,.22);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M9.5 9.5h4a1.5 1.5 0 0 1 0 3h-3a1.5 1.5 0 0 0 0 3h4"/></svg></div>
           <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Paid Ads (PPC &amp; LSA)</div></div>
         </div>
-        <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">The fastest way to fill your schedule — when run correctly. Google Search, Local Service Ads, and Meta campaigns built around one goal: booked jobs, not clicks.</p>
+        <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">The fastest way to fill your schedule, when run correctly. Google Search, Local Service Ads, and Meta campaigns built around one goal: booked jobs, not clicks.</p>
         <div style="display:flex; flex-direction:column; gap:9px;">
           <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">High-intent Search + Google-Guaranteed LSA setup</span></div>
           <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">Every call &amp; form tied back to a campaign</span></div>
-          <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">You own the ad account — 100% transparent, always</span></div>
+          <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">You own the ad account: 100% transparent, always</span></div>
         </div>
       </div>
 
@@ -123,10 +123,10 @@ $nav_cta_href = 'contact.php';
           <div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:50px; height:50px; border-radius:13px; background:rgba(0,229,160,.1); border:1px solid rgba(0,229,160,.22);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.8 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8z"/></svg></div>
           <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Reputation Management</div></div>
         </div>
-        <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">Contractors win on reviews — a 4.9-star profile beats a 3.8 in every market. We build your review count systematically and handle every one the right way.</p>
+        <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">Contractors win on reviews. A 4.9-star profile beats a 3.8 in every market. We build your review count systematically and handle every one the right way.</p>
         <div style="display:flex; flex-direction:column; gap:9px;">
           <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">Automated post-job review requests via text &amp; email</span></div>
-          <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">Google, Yelp, Facebook, BBB — multi-platform</span></div>
+          <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">Google, Yelp, Facebook, BBB: multi-platform</span></div>
           <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">Negative-review strategy + competitor benchmarking</span></div>
         </div>
       </div>
@@ -136,11 +136,11 @@ $nav_cta_href = 'contact.php';
           <div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:50px; height:50px; border-radius:13px; background:rgba(0,229,160,.1); border:1px solid rgba(0,229,160,.22);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.63 3.4 2 2 0 0 1 3.6 1.21h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.82a16 16 0 0 0 6.29 6.29l.97-.97a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
           <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Bilingual Dispatch (EN/ES)</div></div>
         </div>
-        <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">The fastest way to kill a lead is to miss the call. Our bilingual dispatchers are trained on your business — your services, pricing, and how to book the job.</p>
+        <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">The fastest way to kill a lead is to miss the call. Our bilingual dispatchers are trained on your business: your services, pricing, and how to book the job.</p>
         <div style="display:flex; flex-direction:column; gap:9px;">
-          <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">Dedicated dispatcher — not a shared call center</span></div>
+          <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">Dedicated dispatcher, not a shared call center</span></div>
           <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">Booking straight into your CRM + lead qualification</span></div>
-          <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">English &amp; Spanish — capture your full market</span></div>
+          <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">English &amp; Spanish: capture your full market</span></div>
         </div>
       </div>
 
@@ -153,7 +153,7 @@ $nav_cta_href = 'contact.php';
         <div style="display:flex; flex-direction:column; gap:9px;">
           <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">Vetted subs matched to your trade, market, and job type</span></div>
           <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">Licensing &amp; insurance verified before intro</span></div>
-          <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">Ongoing roster management — a bench, not a scramble</span></div>
+          <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">Ongoing roster management: a bench, not a scramble</span></div>
         </div>
       </div>
 
@@ -162,7 +162,7 @@ $nav_cta_href = 'contact.php';
           <div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:50px; height:50px; border-radius:13px; background:rgba(0,229,160,.1); border:1px solid rgba(0,229,160,.22);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M16 6l-4-4-4 4M12 2v13"/></svg></div>
           <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Social Media Management</div></div>
         </div>
-        <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">Homeowners choose contractors on trust — and social is where that trust is built before the call. We make you look like the dominant player in your market.</p>
+        <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">Homeowners choose contractors on trust. And social is where that trust is built before the call. We make you look like the dominant player in your market.</p>
         <div style="display:flex; flex-direction:column; gap:9px;">
           <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">3–5 posts/week across Facebook &amp; Instagram</span></div>
           <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">Short-form Reels &amp; TikToks: job footage, before/afters</span></div>
@@ -175,7 +175,7 @@ $nav_cta_href = 'contact.php';
           <div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:50px; height:50px; border-radius:13px; background:rgba(0,229,160,.1); border:1px solid rgba(0,229,160,.22);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg></div>
           <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em;">Contractor Accreditations</div></div>
         </div>
-        <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">Licenses, certifications, and badges aren't paperwork — they're trust signals that close jobs. We help you get them and make sure they're visible everywhere.</p>
+        <p style="font-size:14.5px; line-height:1.65; color:#9aa0aa; margin:0 0 16px;">Licenses, certifications, and badges aren't paperwork. They're trust signals that close jobs. We help you get them and make sure they're visible everywhere.</p>
         <div style="display:flex; flex-direction:column; gap:9px;">
           <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">Highest-impact accreditations for your trade &amp; market</span></div>
           <div style="display:flex; gap:11px; align-items:flex-start;"><span style="flex-shrink:0; color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:13.5px; color:#c7cbd3; line-height:1.5;">Manufacturer certs (GAF, CertainTeed, Carrier…) + BBB</span></div>
@@ -197,7 +197,7 @@ $nav_cta_href = 'contact.php';
         <div data-reveal class="card" style="padding:clamp(28px,3vw,36px); border:1px solid rgba(255,255,255,.08); border-radius:18px; background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.008));">
           <div style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:14px; letter-spacing:.02em; text-transform:uppercase; color:#8b8f99; margin-bottom:14px;">Foundation</div>
           <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(34px,4vw,46px); letter-spacing:-.03em; line-height:1;">$2,000<span style="font-size:16px; color:#8b8f99; font-weight:500;"> / mo</span></div>
-          <p style="font-size:14px; line-height:1.6; color:#9aa0aa; margin:16px 0 20px;">Get your digital foundation solid — a website that converts, hosted and optimized every month.</p>
+          <p style="font-size:14px; line-height:1.6; color:#9aa0aa; margin:16px 0 20px;">Get your digital foundation solid: a website that converts, hosted and optimized every month.</p>
           <div style="display:flex; flex-direction:column; gap:10px;">
             <div style="display:flex; gap:11px; align-items:flex-start;"><span style="color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:14px; color:#c7cbd3;">Website build &amp; hosting</span></div>
             <div style="display:flex; gap:11px; align-items:flex-start;"><span style="color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:14px; color:#c7cbd3;">Monthly optimization</span></div>
@@ -219,7 +219,7 @@ $nav_cta_href = 'contact.php';
         <div data-reveal class="card" style="padding:clamp(28px,3vw,36px); border:1px solid rgba(255,255,255,.08); border-radius:18px; background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.008));">
           <div style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:14px; letter-spacing:.02em; text-transform:uppercase; color:#8b8f99; margin-bottom:14px;">Full Stack</div>
           <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(34px,4vw,46px); letter-spacing:-.03em; line-height:1;">$4,500<span style="font-size:16px; color:#8b8f99; font-weight:500;"> + 15% spend</span></div>
-          <p style="font-size:14px; line-height:1.6; color:#9aa0aa; margin:16px 0 20px;">The full growth engine — every service, including paid ads and bilingual dispatch.</p>
+          <p style="font-size:14px; line-height:1.6; color:#9aa0aa; margin:16px 0 20px;">The full growth engine: every service, including paid ads and bilingual dispatch.</p>
           <div style="display:flex; flex-direction:column; gap:10px;">
             <div style="display:flex; gap:11px; align-items:flex-start;"><span style="color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:14px; color:#c7cbd3;">Everything in Growth</span></div>
             <div style="display:flex; gap:11px; align-items:flex-start;"><span style="color:var(--accent); font-weight:800; font-size:12px; margin-top:3px;">&#10003;</span><span style="font-size:14px; color:#c7cbd3;">Google &amp; LSA + Meta ad management</span></div>
