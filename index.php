@@ -98,6 +98,9 @@ $trades = [
   @media (prefers-reduced-motion: reduce) {
     .mo-pills > div, .mo-btn, .mo-ghost, .svc-grid > div svg { transition: none !important; transform: none !important; }
   }
+  /* Process steps: 2x2 so each card has room for its copy, single column on narrow screens */
+  .proc-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+  @media (max-width: 760px) { .proc-grid { grid-template-columns: 1fr; } }
   /* Founder quote: quote body beside an attribution rail, stacked on narrow screens */
   .founder-quote { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 290px); gap: clamp(30px, 4vw, 60px); align-items: stretch; }
   .founder-quote > .fq-attr { display: flex; flex-direction: column; justify-content: center; border-left: 1px solid rgba(255,255,255,.1); padding-left: clamp(30px, 4vw, 60px); }
@@ -201,7 +204,7 @@ $trades = [
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/><path d="M22 20c0-3-1.8-5.5-4.5-6.5"/></svg>
         </div>
         <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em; margin-bottom:11px;">Get Staffed</div>
-        <div style="font-size:14.5px; line-height:1.65; color:#9aa0aa;">Never lose a job because you're short on crews. We source and vet qualified subcontractors in your trade so you can take on more work without turning it away.</div>
+        <div style="font-size:14.5px; line-height:1.65; color:#9aa0aa;">Never lose a job because you're short on crews. We source and vet qualified subcontractors in your trade so you can take on more work without turning it away, then push into the next market and do it again.</div>
       </div>
     </div>
     <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1), transform .8s cubic-bezier(.16,.84,.44,1); margin-top:clamp(40px,5vw,60px); text-align:center;">
@@ -216,7 +219,7 @@ $trades = [
       <h2 style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(30px,4.4vw,54px); line-height:1.04; letter-spacing:-.03em; margin:0 0 16px;">From first call to owning your market.</h2>
       <p style="font-size:clamp(15px,1.4vw,18px); line-height:1.6; color:#9aa0aa; margin:0;">No mystery, no fluff. Here's exactly how a partnership moves from day one to the day your competitors start asking who's doing your marketing.</p>
     </div>
-    <div class="mo-grid" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; margin-top:clamp(40px,4vw,56px);">
+    <div class="mo-grid proc-grid" style="margin-top:clamp(40px,4vw,56px);">
       <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1), transform .8s cubic-bezier(.16,.84,.44,1); position:relative; padding:32px; border:1px solid rgba(255,255,255,.08); border-radius:16px; background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.008)); overflow:hidden;">
         <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:14px; letter-spacing:.16em; color:var(--accent); margin-bottom:20px;">STEP 01</div>
         <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:19px; letter-spacing:-.01em; margin-bottom:11px;">Deep-Dive Audit</div>
@@ -237,8 +240,8 @@ $trades = [
       </div>
       <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .21s, transform .8s cubic-bezier(.16,.84,.44,1) .21s; position:relative; padding:32px; border:1px solid rgba(0,229,160,.22); border-radius:16px; background:linear-gradient(180deg, rgba(0,229,160,.06), rgba(255,255,255,.008)); overflow:hidden;">
         <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:14px; letter-spacing:.16em; color:var(--accent); margin-bottom:20px;">STEP 04</div>
-        <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:19px; letter-spacing:-.01em; margin-bottom:11px;">Scale &amp; Staff</div>
-        <div style="font-size:14.5px; line-height:1.65; color:#9aa0aa;">As demand climbs, we source vetted crews so you never turn work away, then push into the next market and do it again.</div>
+        <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:19px; letter-spacing:-.01em; margin-bottom:11px;">Guide to Credibility</div>
+        <div style="font-size:14.5px; line-height:1.65; color:#9aa0aa;">We audit your current credentials and map out exactly which accreditations, certifications, and industry partnerships will make you stand out in your market. You handle the applications, we tell you which ones actually move the needle and in what order. BBB, manufacturer certifications, industry associations, we point you at the ones that close deals.</div>
         <div style="position:absolute; top:-16px; right:6px; font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:110px; line-height:1; color:rgba(0,229,160,.06); pointer-events:none;">4</div>
       </div>
     </div>
