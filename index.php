@@ -3,10 +3,10 @@ require __DIR__ . '/config.php';
 $active = '';
 $nav_cta_href = '#fit';
 $trades = [
-    ['name' => 'Roofing', 'blurb' => 'Storm surges, insurance claims, and a crowded map pack. We make you the roofer homeowners call first — and the one adjusters trust.'],
+    ['name' => 'Roofing', 'blurb' => 'Storm surges, insurance claims, and a crowded map pack. We make you the roofer homeowners call first. And the one adjusters trust.'],
     ['name' => 'HVAC', 'blurb' => 'Demand swings with every heat wave and cold snap. We keep your calendar full in peak season and booked through the shoulders.'],
     ['name' => 'Plumbing', 'blurb' => 'Emergencies convert on speed and trust. We put you at the top of the search the moment a pipe bursts.'],
-    ['name' => 'Electrical', 'blurb' => 'Permits, panels, and EV installs. We position you for the high-ticket work — not just the quick service calls.'],
+    ['name' => 'Electrical', 'blurb' => 'Permits, panels, and EV installs. We position you for the high-ticket work, not just the quick service calls.'],
     ['name' => 'General Contractors', 'blurb' => 'Long sales cycles and big-ticket bids. We build the authority that wins the projects worth chasing.'],
     ['name' => 'Windows & Doors', 'blurb' => 'A visual, financed purchase. We turn showroom curiosity into booked in-home estimates.'],
     ['name' => 'Solar', 'blurb' => 'A skeptical, high-consideration buyer. We build the credibility that clears the objections before the sit.'],
@@ -22,10 +22,10 @@ $trades = [
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Digital Era Media — Growth Partner for the Trades</title>
-<meta name="description" content="Not an agency — a growth partner embedded in your contracting business. Website, SEO, ads, dispatch, and staffing for roofing, HVAC, plumbing, and other trades.">
-<meta property="og:title" content="Digital Era Media — Growth Partner for the Trades">
-<meta property="og:description" content="Not an agency — a growth partner embedded in your contracting business. Website, SEO, ads, dispatch, and staffing for roofing, HVAC, plumbing, and other trades.">
+<title>Digital Era Media: Growth Partner for the Trades</title>
+<meta name="description" content="Not an agency. A growth partner embedded in your contracting business. Website, SEO, ads, dispatch, and staffing for roofing, HVAC, plumbing, and other trades.">
+<meta property="og:title" content="Digital Era Media: Growth Partner for the Trades">
+<meta property="og:description" content="Not an agency. A growth partner embedded in your contracting business. Website, SEO, ads, dispatch, and staffing for roofing, HVAC, plumbing, and other trades.">
 <meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2300e5a0'/%3E%3Ctext x='32' y='44' font-family='Arial, sans-serif' font-size='32' font-weight='800' text-anchor='middle' fill='%2304120c'%3EDE%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -63,7 +63,7 @@ $trades = [
   @media (max-width: 1024px) { .svc-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
   @media (max-width: 560px) { .svc-grid { grid-template-columns: 1fr; } }
 
-  /* ===== Interaction motion (pure CSS — no JS, no re-render) ===== */
+  /* ===== Interaction motion (pure CSS, no JS, no re-render) ===== */
   /* Cards: reveal elements have transform/opacity locked by the scroll
      animation, so we animate colour + shadow (free) and lift the inner icon. */
   .svc-grid > div, .mo-grid > div, .mo-card {
@@ -78,7 +78,7 @@ $trades = [
     }
     .svc-grid > div:hover svg { transform: scale(1.12) translateY(-2px); }
   }
-  /* Trades pills — not animation-locked, so they can truly lift. */
+  /* Trades pills: not animation-locked, so they can truly lift. */
   .mo-pills > div { transition: transform .32s cubic-bezier(.16,.84,.44,1), border-color .32s ease, background .32s ease, color .32s ease; }
   @media (hover: hover) {
     .mo-pills > div:hover { transform: translateY(-4px); }
@@ -98,14 +98,14 @@ $trades = [
   @media (prefers-reduced-motion: reduce) {
     .mo-pills > div, .mo-btn, .mo-ghost, .svc-grid > div svg { transition: none !important; transform: none !important; }
   }
-  /* Founder quote — quote body beside an attribution rail, stacked on narrow screens */
+  /* Founder quote: quote body beside an attribution rail, stacked on narrow screens */
   .founder-quote { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 290px); gap: clamp(30px, 4vw, 60px); align-items: stretch; }
   .founder-quote > .fq-attr { display: flex; flex-direction: column; justify-content: center; border-left: 1px solid rgba(255,255,255,.1); padding-left: clamp(30px, 4vw, 60px); }
   @media (max-width: 860px) {
     .founder-quote { grid-template-columns: 1fr; gap: 30px; }
     .founder-quote > .fq-attr { border-left: 0; border-top: 1px solid rgba(255,255,255,.1); padding-left: 0; padding-top: 30px; }
   }
-  /* Interactive trades — selectable pills + detail panel */
+  /* Interactive trades: selectable pills + detail panel */
   .trade-pill { appearance:none; -webkit-appearance:none; padding:14px 22px; border-radius:100px; font-size:15px; font-weight:600; color:#d6d9df; background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.1); cursor:pointer; font-family:inherit; transition: transform .3s cubic-bezier(.16,.84,.44,1), border-color .3s ease, background .3s ease, color .3s ease, box-shadow .3s ease; }
   @media (hover:hover) { .trade-pill:hover { transform:translateY(-4px); border-color:rgba(0,229,160,.5); background:rgba(0,229,160,.08); color:#eafff7; } }
   .trade-pill.is-on { color:var(--accent-ink); background:var(--accent); border-color:var(--accent); font-weight:700; box-shadow:0 12px 34px -16px rgba(0,229,160,.7); }
@@ -135,7 +135,7 @@ $trades = [
       I Was the Marketer. Then I Became <span style="color:var(--accent);">the Contractor.</span>
     </h1>
     <p data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .12s, transform .8s cubic-bezier(.16,.84,.44,1) .12s; font-size:clamp(17px,1.5vw,21px); line-height:1.6; color:#b4b8c2; max-width:60ch; margin:0 0 40px;">
-      Now I take what I built inside <strong style="color:#f5f6f8; font-weight:700;">The Roofer Bros</strong> — every system, every strategy, every hard lesson — and I put it to work inside yours.
+      Now I take what I built inside <strong style="color:#f5f6f8; font-weight:700;">The Roofer Bros</strong>. Every system, every strategy, every hard lesson. And I put it to work inside yours.
     </p>
     <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .18s, transform .8s cubic-bezier(.16,.84,.44,1) .18s; display:flex; flex-wrap:wrap; gap:14px; margin-bottom:clamp(52px,6vw,76px);">
       <a href="contact.php" class="mo-btn" style="font-size:15px; font-weight:700; color:var(--accent-ink); background:var(--accent); padding:16px 26px; border-radius:11px; box-shadow:0 14px 40px -14px rgba(0,229,160,.75);">See If We're a Fit &rarr;</a>
@@ -148,11 +148,11 @@ $trades = [
       </div>
       <div style="background:#0a0b11; padding:28px 30px;">
         <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(30px,3vw,40px); letter-spacing:-.03em; line-height:1;">6-<span style="color:var(--accent);">MONTH</span></div>
-        <div style="font-size:13.5px; color:#8b8f99; margin-top:10px; line-height:1.4;">Minimum — lowest in the industry</div>
+        <div style="font-size:13.5px; color:#8b8f99; margin-top:10px; line-height:1.4;">Minimum, then month-to-month</div>
       </div>
       <div style="background:#0a0b11; padding:28px 30px;">
-        <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(30px,3vw,40px); letter-spacing:-.03em; line-height:1;">#1-<span style="color:var(--accent);">RANKING</span></div>
-        <div style="font-size:13.5px; color:#8b8f99; margin-top:10px; line-height:1.4;">Google rankings in every market entered</div>
+        <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(30px,3vw,40px); letter-spacing:-.03em; line-height:1;">TOP-<span style="color:var(--accent);">RANKING</span></div>
+        <div style="font-size:13.5px; color:#8b8f99; margin-top:10px; line-height:1.4;">Google rankings across every market we've entered</div>
       </div>
     </div>
   </section>
@@ -161,7 +161,7 @@ $trades = [
   <div style="position:relative; z-index:1; border-top:1px solid rgba(255,255,255,.06); border-bottom:1px solid rgba(255,255,255,.06); background:linear-gradient(180deg, rgba(0,229,160,.05), rgba(0,229,160,0));">
     <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1), transform .8s cubic-bezier(.16,.84,.44,1); max-width:1180px; margin:0 auto; padding:clamp(44px,5vw,68px) clamp(20px,5vw,56px);">
       <p style="font-family:'Space Grotesk',sans-serif; font-weight:500; font-size:clamp(30px,4.8vw,62px); line-height:1.16; letter-spacing:-.025em; margin:0; max-width:22ch;">
-        We don't take on clients. <span style="color:var(--accent);">We take on partners — and we don't stop until your market knows your name.</span>
+        We don't take on clients. <span style="color:var(--accent);">We take on partners. And we don't stop until your market knows your name.</span>
       </p>
     </div>
   </div>
@@ -180,7 +180,7 @@ $trades = [
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
         </div>
         <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; letter-spacing:-.01em; margin-bottom:11px;">Get Found</div>
-        <div style="font-size:14.5px; line-height:1.65; color:#9aa0aa;">We own your digital presence — website, SEO, and Google Business Profile — so when someone in your market searches, you're the first name they see.</div>
+        <div style="font-size:14.5px; line-height:1.65; color:#9aa0aa;">We own your digital presence: website, SEO, and Google Business Profile. So when someone in your market searches, you're the first name they see.</div>
       </div>
       <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .07s, transform .8s cubic-bezier(.16,.84,.44,1) .07s; position:relative; padding:34px; border:1px solid rgba(255,255,255,.08); border-radius:16px; background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.008)); overflow:hidden;">
         <div style="display:flex; align-items:center; justify-content:center; width:52px; height:52px; border-radius:13px; background:rgba(0,229,160,.1); border:1px solid rgba(0,229,160,.22); margin-bottom:22px;">
@@ -226,19 +226,19 @@ $trades = [
       <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .07s, transform .8s cubic-bezier(.16,.84,.44,1) .07s; position:relative; padding:32px; border:1px solid rgba(255,255,255,.08); border-radius:16px; background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.008)); overflow:hidden;">
         <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:14px; letter-spacing:.16em; color:var(--accent); margin-bottom:20px;">STEP 02</div>
         <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:19px; letter-spacing:-.01em; margin-bottom:11px;">Build the Engine</div>
-        <div style="font-size:14.5px; line-height:1.65; color:#9aa0aa;">Website, ads, SEO, dispatch, credibility — we build and wire every system together so a click turns into a booked job, not a dead end.</div>
+        <div style="font-size:14.5px; line-height:1.65; color:#9aa0aa;">Website, ads, SEO, dispatch, credibility. We build and wire every system together so a click turns into a booked job, not a dead end.</div>
         <div style="position:absolute; top:-16px; right:6px; font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:110px; line-height:1; color:rgba(255,255,255,.03); pointer-events:none;">2</div>
       </div>
       <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .14s, transform .8s cubic-bezier(.16,.84,.44,1) .14s; position:relative; padding:32px; border:1px solid rgba(255,255,255,.08); border-radius:16px; background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.008)); overflow:hidden;">
         <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:14px; letter-spacing:.16em; color:var(--accent); margin-bottom:20px;">STEP 03</div>
         <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:19px; letter-spacing:-.01em; margin-bottom:11px;">Launch &amp; Optimize</div>
-        <div style="font-size:14.5px; line-height:1.65; color:#9aa0aa;">We go live and watch the data daily — tuning ads, pages, and dispatch until the phone rings with the right calls at the right cost.</div>
+        <div style="font-size:14.5px; line-height:1.65; color:#9aa0aa;">We go live and watch the data daily, tuning ads, pages, and dispatch until the phone rings with the right calls at the right cost.</div>
         <div style="position:absolute; top:-16px; right:6px; font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:110px; line-height:1; color:rgba(255,255,255,.03); pointer-events:none;">3</div>
       </div>
       <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .21s, transform .8s cubic-bezier(.16,.84,.44,1) .21s; position:relative; padding:32px; border:1px solid rgba(0,229,160,.22); border-radius:16px; background:linear-gradient(180deg, rgba(0,229,160,.06), rgba(255,255,255,.008)); overflow:hidden;">
         <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:14px; letter-spacing:.16em; color:var(--accent); margin-bottom:20px;">STEP 04</div>
         <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:19px; letter-spacing:-.01em; margin-bottom:11px;">Scale &amp; Staff</div>
-        <div style="font-size:14.5px; line-height:1.65; color:#9aa0aa;">As demand climbs, we source vetted crews so you never turn work away — then push into the next market and do it again.</div>
+        <div style="font-size:14.5px; line-height:1.65; color:#9aa0aa;">As demand climbs, we source vetted crews so you never turn work away, then push into the next market and do it again.</div>
         <div style="position:absolute; top:-16px; right:6px; font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:110px; line-height:1; color:rgba(0,229,160,.06); pointer-events:none;">4</div>
       </div>
     </div>
@@ -251,11 +251,11 @@ $trades = [
         <h2 style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(30px,4.2vw,52px); line-height:1.05; letter-spacing:-.03em; margin:0 0 20px;">You're not hiring a vendor. <span style="color:var(--accent);">You're gaining a partner.</span></h2>
         <p style="font-size:clamp(15px,1.4vw,17px); line-height:1.7; color:#9aa0aa; margin:0 0 30px; max-width:52ch;">Every agency you've ever hired sent reports. We send results. There's no account manager who's never touched a job site, no strategy built from a template, no upsell to services you don't need. Just someone who's run a contracting company and knows exactly what moves the needle.</p>
         <div style="display:flex; flex-direction:column; gap:14px;">
-          <div style="display:flex; align-items:flex-start; gap:13px;"><span style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:6px; background:rgba(0,229,160,.14); color:var(--accent); font-size:12px; font-weight:800;">&#10003;</span><span style="font-size:15px; color:#c7cbd3; line-height:1.5;">We report calls, booked jobs, and revenue — not impressions</span></div>
-          <div style="display:flex; align-items:flex-start; gap:13px;"><span style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:6px; background:rgba(0,229,160,.14); color:var(--accent); font-size:12px; font-weight:800;">&#10003;</span><span style="font-size:15px; color:#c7cbd3; line-height:1.5;">6-month minimum — the lowest commitment you'll find anywhere</span></div>
+          <div style="display:flex; align-items:flex-start; gap:13px;"><span style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:6px; background:rgba(0,229,160,.14); color:var(--accent); font-size:12px; font-weight:800;">&#10003;</span><span style="font-size:15px; color:#c7cbd3; line-height:1.5;">We report calls, booked jobs, and revenue, not impressions</span></div>
+          <div style="display:flex; align-items:flex-start; gap:13px;"><span style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:6px; background:rgba(0,229,160,.14); color:var(--accent); font-size:12px; font-weight:800;">&#10003;</span><span style="font-size:15px; color:#c7cbd3; line-height:1.5;">6-month minimum, then month-to-month. No year-long lock-ins</span></div>
           <div style="display:flex; align-items:flex-start; gap:13px;"><span style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:6px; background:rgba(0,229,160,.14); color:var(--accent); font-size:12px; font-weight:800;">&#10003;</span><span style="font-size:15px; color:#c7cbd3; line-height:1.5;">One point of contact who knows your business inside out</span></div>
           <div style="display:flex; align-items:flex-start; gap:13px;"><span style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:6px; background:rgba(0,229,160,.14); color:var(--accent); font-size:12px; font-weight:800;">&#10003;</span><span style="font-size:15px; color:#c7cbd3; line-height:1.5;">Strategy built for your trade, your market, your margins</span></div>
-          <div style="display:flex; align-items:flex-start; gap:13px;"><span style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:6px; background:rgba(0,229,160,.14); color:var(--accent); font-size:12px; font-weight:800;">&#10003;</span><span style="font-size:15px; color:#c7cbd3; line-height:1.5;">Full transparency — real-time access to every dollar and every metric</span></div>
+          <div style="display:flex; align-items:flex-start; gap:13px;"><span style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:6px; background:rgba(0,229,160,.14); color:var(--accent); font-size:12px; font-weight:800;">&#10003;</span><span style="font-size:15px; color:#c7cbd3; line-height:1.5;">Full transparency: real-time access to every dollar and every metric</span></div>
         </div>
         <div style="margin-top:30px;">
           <a href="about.php" class="mo-ghost" style="display:inline-block; font-size:15px; font-weight:600; color:#f5f6f8; background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.14); padding:14px 24px; border-radius:11px;">Our Story &rarr;</a>
@@ -263,10 +263,10 @@ $trades = [
       </div>
       <div data-reveal class="mo-card" style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .1s, transform .8s cubic-bezier(.16,.84,.44,1) .1s; border:1px solid rgba(0,229,160,.18); border-radius:20px; background:linear-gradient(180deg, rgba(0,229,160,.05), rgba(255,255,255,.008)); padding:clamp(28px,3vw,38px); box-shadow:0 40px 90px -50px rgba(0,229,160,.5);">
         <div style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:14px; letter-spacing:.02em; color:#8b8f99; text-transform:uppercase; margin-bottom:22px;">What a full partnership looks like</div>
-        <div style="display:flex; justify-content:space-between; align-items:center; gap:16px; padding:15px 0; border-bottom:1px solid rgba(255,255,255,.07);"><span style="font-size:15px; color:#d6d9df;">Get Found — Website, SEO, GMB</span><span style="color:var(--accent); font-weight:800;">&#10003;</span></div>
-        <div style="display:flex; justify-content:space-between; align-items:center; gap:16px; padding:15px 0; border-bottom:1px solid rgba(255,255,255,.07);"><span style="font-size:15px; color:#d6d9df;">Get Called — Ads, Dispatch</span><span style="color:var(--accent); font-weight:800;">&#10003;</span></div>
-        <div style="display:flex; justify-content:space-between; align-items:center; gap:16px; padding:15px 0; border-bottom:1px solid rgba(255,255,255,.07);"><span style="font-size:15px; color:#d6d9df;">Get Credible — Accreditations, Social</span><span style="color:var(--accent); font-weight:800;">&#10003;</span></div>
-        <div style="display:flex; justify-content:space-between; align-items:center; gap:16px; padding:15px 0; border-bottom:1px solid rgba(255,255,255,.07);"><span style="font-size:15px; color:#d6d9df;">Get Staffed — Subcontractor Sourcing</span><span style="color:var(--accent); font-weight:800;">&#10003;</span></div>
+        <div style="display:flex; justify-content:space-between; align-items:center; gap:16px; padding:15px 0; border-bottom:1px solid rgba(255,255,255,.07);"><span style="font-size:15px; color:#d6d9df;">Get Found: Website, SEO, GMB</span><span style="color:var(--accent); font-weight:800;">&#10003;</span></div>
+        <div style="display:flex; justify-content:space-between; align-items:center; gap:16px; padding:15px 0; border-bottom:1px solid rgba(255,255,255,.07);"><span style="font-size:15px; color:#d6d9df;">Get Called: Ads, Dispatch</span><span style="color:var(--accent); font-weight:800;">&#10003;</span></div>
+        <div style="display:flex; justify-content:space-between; align-items:center; gap:16px; padding:15px 0; border-bottom:1px solid rgba(255,255,255,.07);"><span style="font-size:15px; color:#d6d9df;">Get Credible: Accreditations, Social</span><span style="color:var(--accent); font-weight:800;">&#10003;</span></div>
+        <div style="display:flex; justify-content:space-between; align-items:center; gap:16px; padding:15px 0; border-bottom:1px solid rgba(255,255,255,.07);"><span style="font-size:15px; color:#d6d9df;">Get Staffed: Subcontractor Sourcing</span><span style="color:var(--accent); font-weight:800;">&#10003;</span></div>
         <div style="display:flex; justify-content:space-between; align-items:center; gap:16px; padding:15px 0; border-bottom:1px solid rgba(255,255,255,.07);"><span style="font-size:15px; color:#d6d9df;">Dedicated growth partner</span><span style="color:var(--accent); font-weight:800;">&#10003;</span></div>
         <div style="display:flex; justify-content:space-between; align-items:center; gap:16px; padding:15px 0;"><span style="font-size:15px; color:#d6d9df;">Monthly performance review</span><span style="color:var(--accent); font-weight:800;">&#10003;</span></div>
         <div style="margin-top:22px; padding:22px; border-radius:14px; background:rgba(0,229,160,.08); border:1px solid rgba(0,229,160,.2); display:flex; flex-direction:column; gap:16px;">
@@ -303,7 +303,7 @@ $trades = [
           <div style="display:flex; align-items:flex-start; gap:13px;"><span style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:6px; background:rgba(0,229,160,.14); color:var(--accent); font-size:12px; font-weight:800;">&#10003;</span><span style="font-size:15px; color:#d6d9df; line-height:1.5;">A partner who's actually run a contracting company</span></div>
           <div style="display:flex; align-items:flex-start; gap:13px;"><span style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:6px; background:rgba(0,229,160,.14); color:var(--accent); font-size:12px; font-weight:800;">&#10003;</span><span style="font-size:15px; color:#d6d9df; line-height:1.5;">6-month minimum, then month-to-month. That's it</span></div>
           <div style="display:flex; align-items:flex-start; gap:13px;"><span style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:6px; background:rgba(0,229,160,.14); color:var(--accent); font-size:12px; font-weight:800;">&#10003;</span><span style="font-size:15px; color:#d6d9df; line-height:1.5;">Strategy built for your trade, market, and margins</span></div>
-          <div style="display:flex; align-items:flex-start; gap:13px;"><span style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:6px; background:rgba(0,229,160,.14); color:var(--accent); font-size:12px; font-weight:800;">&#10003;</span><span style="font-size:15px; color:#d6d9df; line-height:1.5;">A real-time dashboard — every dollar, always on</span></div>
+          <div style="display:flex; align-items:flex-start; gap:13px;"><span style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:6px; background:rgba(0,229,160,.14); color:var(--accent); font-size:12px; font-weight:800;">&#10003;</span><span style="font-size:15px; color:#d6d9df; line-height:1.5;">A real-time dashboard: every dollar, always on</span></div>
           <div style="display:flex; align-items:flex-start; gap:13px;"><span style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:6px; background:rgba(0,229,160,.14); color:var(--accent); font-size:12px; font-weight:800;">&#10003;</span><span style="font-size:15px; color:#d6d9df; line-height:1.5;">We win when you grow. Period.</span></div>
         </div>
       </div>
@@ -356,14 +356,14 @@ $trades = [
     <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1), transform .8s cubic-bezier(.16,.84,.44,1); max-width:1180px; margin:0 auto; padding:clamp(72px,9vw,112px) clamp(20px,5vw,56px); text-align:center;">
       <div style="display:inline-flex; align-items:center; gap:10px; font-size:13px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--accent); margin-bottom:36px;">
         <span style="width:26px; height:1px; background:var(--accent); opacity:.5;"></span>
-        The Roofer Bros — Built with this exact system
+        The Roofer Bros: Built with this exact system
         <span style="width:26px; height:1px; background:var(--accent); opacity:.5;"></span>
       </div>
       <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:clamp(24px,4vw,48px); max-width:920px; margin:0 auto;">
         <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(38px,5vw,64px); letter-spacing:-.03em; line-height:1; color:var(--accent);">8-Fig</div><div style="font-size:14px; color:#9aa0aa; margin-top:12px; line-height:1.4;">Annual revenue in under 24 months</div></div>
-        <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(38px,5vw,64px); letter-spacing:-.03em; line-height:1; color:var(--accent);">500+</div><div style="font-size:14px; color:#9aa0aa; margin-top:12px; line-height:1.4;">Google reviews at 4.9 stars</div></div>
+        <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(38px,5vw,64px); letter-spacing:-.03em; line-height:1; color:var(--accent);">500+</div><div style="font-size:14px; color:#9aa0aa; margin-top:12px; line-height:1.4;">Reviews online at 4.9 stars</div></div>
         <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(38px,5vw,64px); letter-spacing:-.03em; line-height:1; color:var(--accent);">$1M+</div><div style="font-size:14px; color:#9aa0aa; margin-top:12px; line-height:1.4;">Ad spend managed</div></div>
-        <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(38px,5vw,64px); letter-spacing:-.03em; line-height:1; color:var(--accent);">#1</div><div style="font-size:14px; color:#9aa0aa; margin-top:12px; line-height:1.4;">SEO rankings across primary keywords</div></div>
+        <div><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(38px,5vw,64px); letter-spacing:-.03em; line-height:1; color:var(--accent);">Top</div><div style="font-size:14px; color:#9aa0aa; margin-top:12px; line-height:1.4;">SEO rankings across primary keywords</div></div>
       </div>
     </div>
   </div>
@@ -377,27 +377,27 @@ $trades = [
     <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .06s, transform .8s cubic-bezier(.16,.84,.44,1) .06s; max-width:860px; margin-top:clamp(36px,4vw,48px); border-top:1px solid rgba(255,255,255,.09);">
       <details class="faq">
         <summary>What exactly do you take over?<span class="chev"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></summary>
-        <div class="ans">As much or as little as you need. That can mean your entire digital presence — website, SEO, and Google Business Profile — plus paid ads, bilingual dispatch, credibility building, and subcontractor sourcing. Most partners start with the areas that are leaking the most money and expand from there.</div>
+        <div class="ans">As much or as little as you need. That can mean your entire digital presence: website, SEO, and Google Business Profile, plus paid ads, bilingual dispatch, credibility building, and subcontractor sourcing. Most partners start with the areas that are leaking the most money and expand from there.</div>
       </details>
       <details class="faq">
         <summary>Why only a 6-month minimum?<span class="chev"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></summary>
-        <div class="ans">Real growth compounds — six months is the shortest honest window to build the systems, feed the data, and show revenue you can bank. It's the lowest commitment in the industry, and after that we're month-to-month. We'd rather earn your business every month than trap you in a year-long contract.</div>
+        <div class="ans">Real growth compounds. Six months is the shortest honest window to build the systems, feed the data, and show revenue you can bank. After that we're month-to-month. We'd rather earn your business every month than trap you in a year-long contract.</div>
       </details>
       <details class="faq">
         <summary>Which trades do you work with?<span class="chev"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></summary>
-        <div class="ans">Contractor trades only — roofing, HVAC, plumbing, electrical, general contracting, windows and doors, solar, and more. We go deep instead of wide because every trade has its own market dynamics and buying triggers, and that focus is where we're sharpest.</div>
+        <div class="ans">Contractor trades only: roofing, HVAC, plumbing, electrical, general contracting, windows and doors, solar, and more. We go deep instead of wide because every trade has its own market dynamics and buying triggers, and that focus is where we're sharpest.</div>
       </details>
       <details class="faq">
         <summary>How is this different from hiring an agency?<span class="chev"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></summary>
-        <div class="ans">You're not hiring a vendor who sends reports and disappears. You're gaining a partner who has run a contracting company, reports on booked jobs instead of impressions, and gives you one point of contact who knows your business inside out. We win when you grow — not when we bill.</div>
+        <div class="ans">You're not hiring a vendor who sends reports and disappears. You're gaining a partner who has run a contracting company, reports on booked jobs instead of impressions, and gives you one point of contact who knows your business inside out. We win when you grow, not when we bill.</div>
       </details>
       <details class="faq">
         <summary>What does a partnership cost?<span class="chev"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></summary>
-        <div class="ans">Every partnership is scoped to your market, your goals, and the systems you actually need — so there's no one-size price tag. Book a fit call and we'll look at your business and give you a straight number. No pitch, no pressure.</div>
+        <div class="ans">Every partnership is scoped to your market, your goals, and the systems you actually need, so there's no one-size price tag. Book a fit call and we'll look at your business and give you a straight number. No pitch, no pressure.</div>
       </details>
       <details class="faq">
         <summary>Do you work with more than one contractor per market?<span class="chev"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></summary>
-        <div class="ans">No. When we take on a trade in a market, our job is to make you the name people know — so we won't split our effort with your direct competitor. Once your market's claimed, it's yours.</div>
+        <div class="ans">No. When we take on a trade in a market, our job is to make you the name people know, so we won't split our effort with your direct competitor. Once your market's claimed, it's yours.</div>
       </details>
     </div>
   </section>
@@ -411,7 +411,7 @@ $trades = [
   <div style="position:relative; z-index:1;">
     <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1), transform .8s cubic-bezier(.16,.84,.44,1); max-width:1180px; margin:0 auto; padding:clamp(80px,10vw,140px) clamp(20px,5vw,56px); text-align:center;">
       <h2 style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(32px,5.2vw,66px); line-height:1.04; letter-spacing:-.03em; margin:0 0 22px; max-width:20ch; margin-left:auto; margin-right:auto; text-wrap:balance;">Ready to stop hiring vendors and start growing <span style="color:var(--accent);">with a partner?</span></h2>
-      <p style="font-size:clamp(16px,1.5vw,19px); line-height:1.6; color:#9aa0aa; max-width:56ch; margin:0 auto 40px;">We'll look at your business, your market, and your competitors — then tell you exactly what we'd do. No pitch. Just answers.</p>
+      <p style="font-size:clamp(16px,1.5vw,19px); line-height:1.6; color:#9aa0aa; max-width:56ch; margin:0 auto 40px;">We'll look at your business, your market, and your competitors, then tell you exactly what we'd do. No pitch. Just answers.</p>
       <div style="display:flex; flex-wrap:wrap; gap:14px; justify-content:center;">
         <a href="contact.php" class="mo-btn" style="font-size:15px; font-weight:700; color:var(--accent-ink); background:var(--accent); padding:16px 28px; border-radius:11px; box-shadow:0 14px 46px -14px rgba(0,229,160,.8);">See If We're a Fit &rarr;</a>
         <a href="tel:<?php echo SITE_PHONE_TEL; ?>" class="mo-ghost" style="font-size:15px; font-weight:600; color:#f5f6f8; background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.14); padding:16px 28px; border-radius:11px;">Call Us Directly</a>

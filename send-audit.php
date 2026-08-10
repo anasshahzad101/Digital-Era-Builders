@@ -9,7 +9,7 @@ if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') {
     exit;
 }
 
-// Honeypot — real visitors never fill this field.
+// Honeypot: real visitors never fill this field.
 if (!empty($_POST['website'])) {
     header('Location: contact.php?sent=1#audit');
     exit;
@@ -44,11 +44,11 @@ $lines = [
     'Trade:              ' . $trade,
     'Phone:              ' . $phone,
     'Email:              ' . $email,
-    'Monthly revenue:    ' . ($revenue !== '' ? $revenue : '—'),
-    'Monthly ad spend:   ' . ($adspend !== '' ? $adspend : '—'),
+    'Monthly revenue:    ' . ($revenue !== '' ? $revenue : 'Not provided'),
+    'Monthly ad spend:   ' . ($adspend !== '' ? $adspend : 'Not provided'),
     '',
     'Biggest challenge:',
-    $challenge !== '' ? $challenge : '—',
+    $challenge !== '' ? $challenge : 'Not provided',
 ];
 $body = implode("\n", $lines);
 
@@ -59,7 +59,7 @@ $headers = [
     'Content-Type: text/plain; charset=UTF-8',
 ];
 
-@mail(CONTACT_EMAIL, 'New Free Audit Request — ' . $business, $body, implode("\r\n", $headers));
+@mail(CONTACT_EMAIL, 'New Free Audit Request: ' . $business, $body, implode("\r\n", $headers));
 
 // Local backup copy, one JSON line per lead.
 $log = [
