@@ -328,32 +328,16 @@ $trades = [
   <!-- TESTIMONIALS -->
   <section style="position:relative; z-index:1; max-width:1180px; margin:0 auto; padding:clamp(80px,10vw,130px) clamp(20px,5vw,56px);">
     <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1), transform .8s cubic-bezier(.16,.84,.44,1); max-width:60ch;">
-      <div style="display:inline-block; font-size:13px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:var(--accent); margin-bottom:18px;">In Their Words</div>
-      <h2 style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(30px,4.4vw,54px); line-height:1.04; letter-spacing:-.03em; margin:0;">Contractors who stopped guessing.</h2>
+      <div style="display:inline-block; font-size:13px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:var(--accent); margin-bottom:18px;">From The Founder</div>
+      <h2 style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(30px,4.4vw,54px); line-height:1.04; letter-spacing:-.03em; margin:0;">We ran the playbook on ourselves first.</h2>
     </div>
-    <div class="mo-grid" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; margin-top:clamp(40px,4vw,56px);">
-      <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1), transform .8s cubic-bezier(.16,.84,.44,1); display:flex; flex-direction:column; padding:clamp(28px,3vw,34px); border:1px solid rgba(255,255,255,.08); border-radius:18px; background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.008));">
+    <div class="mo-grid" style="display:grid; grid-template-columns:1fr; max-width:820px; margin-top:clamp(40px,4vw,56px);">
+      <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1), transform .8s cubic-bezier(.16,.84,.44,1); display:flex; flex-direction:column; padding:clamp(30px,3.4vw,44px); border:1px solid rgba(255,255,255,.08); border-radius:18px; background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.008));">
         <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:52px; line-height:.6; color:var(--accent); opacity:.5; margin-bottom:16px;">&ldquo;</div>
-        <p style="font-size:16.5px; line-height:1.6; color:#d6d9df; margin:0 0 28px; flex:1;">We went from praying the phone would ring to turning away jobs we couldn't staff fast enough. That's the whole game, and they got us there in a season.</p>
+        <p style="font-size:clamp(17px,1.7vw,21px); line-height:1.6; color:#d6d9df; margin:0 0 28px;">I spent years running marketing for other people's businesses. Then I bet on myself, started The Roofer Bros, and ran the same playbook on my own company. Eight figures in under 24 months. Now I run it for other contractors who are ready to stop guessing.</p>
         <div style="display:flex; align-items:center; gap:14px; padding-top:22px; border-top:1px solid rgba(255,255,255,.07);">
-          <div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:44px; height:44px; border-radius:50%; background:rgba(0,229,160,.12); border:1px solid rgba(0,229,160,.24); font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:15px; color:var(--accent);">MD</div>
-          <div><div style="font-size:15px; font-weight:700; color:#f5f6f8;">Marcus D.</div><div style="font-size:13px; color:#8b8f99; margin-top:2px;">Owner, Summit Roofing</div></div>
-        </div>
-      </div>
-      <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .08s, transform .8s cubic-bezier(.16,.84,.44,1) .08s; display:flex; flex-direction:column; padding:clamp(28px,3vw,34px); border:1px solid rgba(255,255,255,.08); border-radius:18px; background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.008));">
-        <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:52px; line-height:.6; color:var(--accent); opacity:.5; margin-bottom:16px;">&ldquo;</div>
-        <p style="font-size:16.5px; line-height:1.6; color:#d6d9df; margin:0 0 28px; flex:1;">Every company before this sent me a PDF and a bill. DigitalEra sent me booked appointments and a dashboard I actually open every morning.</p>
-        <div style="display:flex; align-items:center; gap:14px; padding-top:22px; border-top:1px solid rgba(255,255,255,.07);">
-          <div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:44px; height:44px; border-radius:50%; background:rgba(0,229,160,.12); border:1px solid rgba(0,229,160,.24); font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:15px; color:var(--accent);">TR</div>
-          <div><div style="font-size:15px; font-weight:700; color:#f5f6f8;">Tanya R.</div><div style="font-size:13px; color:#8b8f99; margin-top:2px;">GM, Clearline HVAC</div></div>
-        </div>
-      </div>
-      <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .16s, transform .8s cubic-bezier(.16,.84,.44,1) .16s; display:flex; flex-direction:column; padding:clamp(28px,3vw,34px); border:1px solid rgba(255,255,255,.08); border-radius:18px; background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.008));">
-        <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:52px; line-height:.6; color:var(--accent); opacity:.5; margin-bottom:16px;">&ldquo;</div>
-        <p style="font-size:16.5px; line-height:1.6; color:#d6d9df; margin:0 0 28px; flex:1;">They understood my margins better than my own bookkeeper. The plan was built around how a contractor actually makes money — not how an agency bills hours.</p>
-        <div style="display:flex; align-items:center; gap:14px; padding-top:22px; border-top:1px solid rgba(255,255,255,.07);">
-          <div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:44px; height:44px; border-radius:50%; background:rgba(0,229,160,.12); border:1px solid rgba(0,229,160,.24); font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:15px; color:var(--accent);">DK</div>
-          <div><div style="font-size:15px; font-weight:700; color:#f5f6f8;">Devin K.</div><div style="font-size:13px; color:#8b8f99; margin-top:2px;">Founder, Anchor Plumbing</div></div>
+          <div style="flex-shrink:0; display:flex; align-items:center; justify-content:center; width:44px; height:44px; border-radius:50%; background:rgba(0,229,160,.12); border:1px solid rgba(0,229,160,.24); font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:15px; color:var(--accent);">SR</div>
+          <div><div style="font-size:15px; font-weight:700; color:#f5f6f8;">Sako Rassam</div><div style="font-size:13px; color:#8b8f99; margin-top:2px;">Founder, The Roofer Bros and Digital Era Media</div></div>
         </div>
       </div>
     </div>
