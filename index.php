@@ -144,18 +144,14 @@ $trades = [
       <a href="contact.php" class="mo-btn" style="font-size:15px; font-weight:700; color:var(--accent-ink); background:var(--accent); padding:16px 26px; border-radius:11px; box-shadow:0 14px 40px -14px rgba(0,229,160,.75);">See If We're a Fit &rarr;</a>
       <a href="services.php" class="mo-ghost" style="font-size:15px; font-weight:600; color:#f5f6f8; background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.14); padding:16px 26px; border-radius:11px;">How We Grow You</a>
     </div>
-    <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .24s, transform .8s cubic-bezier(.16,.84,.44,1) .24s; display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:1px; background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.08); border-radius:16px; overflow:hidden;">
-      <div style="background:#0a0b11; padding:28px 30px;">
-        <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(30px,3vw,40px); letter-spacing:-.03em; line-height:1;">8-<span style="color:var(--accent);">FIGURES</span></div>
-        <div style="font-size:13.5px; color:#8b8f99; margin-top:10px; line-height:1.4;">Revenue built at The Roofer Bros</div>
-      </div>
-      <div style="background:#0a0b11; padding:28px 30px;">
+    <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .24s, transform .8s cubic-bezier(.16,.84,.44,1) .24s; display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1px; max-width:720px; background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.08); border-radius:16px; overflow:hidden;">
+      <div style="background:#0a0b11; padding:30px 32px;">
         <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(30px,3vw,40px); letter-spacing:-.03em; line-height:1;">6-<span style="color:var(--accent);">MONTH</span></div>
-        <div style="font-size:13.5px; color:#8b8f99; margin-top:10px; line-height:1.4;">Minimum, then month-to-month</div>
+        <div style="font-size:13.5px; color:#8b8f99; margin-top:10px; line-height:1.45; max-width:26ch;">Minimum, then month-to-month</div>
       </div>
-      <div style="background:#0a0b11; padding:28px 30px;">
+      <div style="background:#0a0b11; padding:30px 32px;">
         <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(30px,3vw,40px); letter-spacing:-.03em; line-height:1;">TOP-<span style="color:var(--accent);">RANKING</span></div>
-        <div style="font-size:13.5px; color:#8b8f99; margin-top:10px; line-height:1.4;">Google rankings across every market we've entered</div>
+        <div style="font-size:13.5px; color:#8b8f99; margin-top:10px; line-height:1.45; max-width:26ch;">Google rankings across every market we've entered</div>
       </div>
     </div>
   </section>
