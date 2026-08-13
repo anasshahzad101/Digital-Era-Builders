@@ -108,6 +108,19 @@ $trades = [
     .founder-quote { grid-template-columns: 1fr; gap: 30px; }
     .founder-quote > .fq-attr { border-left: 0; border-top: 1px solid rgba(255,255,255,.1); padding-left: 0; padding-top: 30px; }
   }
+  /* Hero proof strip: two stats anchored to the outer edges of the hero column */
+  .hero-stats { display: grid; grid-template-columns: minmax(0, auto) minmax(0, auto); justify-content: space-between; gap: clamp(30px, 5vw, 64px); border-top: 1px solid rgba(255,255,255,.1); padding-top: clamp(28px, 3.4vw, 40px); }
+  .hero-stats .hs-rule { display: block; width: 46px; height: 2px; border-radius: 2px; background: var(--accent); margin-bottom: 18px; box-shadow: 0 0 18px rgba(0,229,160,.55); }
+  .hero-stats .hs-num { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(32px, 3.4vw, 46px); letter-spacing: -.03em; line-height: 1; white-space: nowrap; }
+  .hero-stats .hs-num span { color: var(--accent); }
+  .hero-stats .hs-cap { font-size: 14px; color: #8b8f99; margin-top: 11px; line-height: 1.5; max-width: 34ch; }
+  .hero-stats .hs-end { text-align: right; }
+  .hero-stats .hs-end .hs-rule, .hero-stats .hs-end .hs-cap { margin-left: auto; }
+  @media (max-width: 820px) {
+    .hero-stats { grid-template-columns: 1fr; justify-content: start; gap: 32px; }
+    .hero-stats .hs-end { text-align: left; }
+    .hero-stats .hs-end .hs-rule, .hero-stats .hs-end .hs-cap { margin-left: 0; }
+  }
   /* Interactive trades: selectable pills + detail panel */
   .trade-pill { appearance:none; -webkit-appearance:none; padding:14px 22px; border-radius:100px; font-size:15px; font-weight:600; color:#d6d9df; background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.1); cursor:pointer; font-family:inherit; transition: transform .3s cubic-bezier(.16,.84,.44,1), border-color .3s ease, background .3s ease, color .3s ease, box-shadow .3s ease; }
   @media (hover:hover) { .trade-pill:hover { transform:translateY(-4px); border-color:rgba(0,229,160,.5); background:rgba(0,229,160,.08); color:#eafff7; } }
@@ -144,14 +157,16 @@ $trades = [
       <a href="contact.php" class="mo-btn" style="font-size:15px; font-weight:700; color:var(--accent-ink); background:var(--accent); padding:16px 26px; border-radius:11px; box-shadow:0 14px 40px -14px rgba(0,229,160,.75);">See If We're a Fit &rarr;</a>
       <a href="services.php" class="mo-ghost" style="font-size:15px; font-weight:600; color:#f5f6f8; background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.14); padding:16px 26px; border-radius:11px;">How We Grow You</a>
     </div>
-    <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .24s, transform .8s cubic-bezier(.16,.84,.44,1) .24s; display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1px; max-width:720px; background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.08); border-radius:16px; overflow:hidden;">
-      <div style="background:#0a0b11; padding:30px 32px;">
-        <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(30px,3vw,40px); letter-spacing:-.03em; line-height:1;">6-<span style="color:var(--accent);">MONTH</span></div>
-        <div style="font-size:13.5px; color:#8b8f99; margin-top:10px; line-height:1.45; max-width:26ch;">Minimum, then month-to-month</div>
+    <div data-reveal class="hero-stats" style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .24s, transform .8s cubic-bezier(.16,.84,.44,1) .24s;">
+      <div class="hs">
+        <span class="hs-rule"></span>
+        <div class="hs-num">6-<span>MONTH</span></div>
+        <div class="hs-cap">Minimum, then month-to-month</div>
       </div>
-      <div style="background:#0a0b11; padding:30px 32px;">
-        <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(30px,3vw,40px); letter-spacing:-.03em; line-height:1;">TOP-<span style="color:var(--accent);">RANKING</span></div>
-        <div style="font-size:13.5px; color:#8b8f99; margin-top:10px; line-height:1.45; max-width:26ch;">Google rankings across every market we've entered</div>
+      <div class="hs hs-end">
+        <span class="hs-rule"></span>
+        <div class="hs-num">TOP-<span>RANKING</span></div>
+        <div class="hs-cap">Google rankings across every market we've entered</div>
       </div>
     </div>
   </section>
