@@ -108,6 +108,9 @@ $trades = [
     .founder-quote { grid-template-columns: 1fr; gap: 30px; }
     .founder-quote > .fq-attr { border-left: 0; border-top: 1px solid rgba(255,255,255,.1); padding-left: 0; padding-top: 30px; }
   }
+  /* Statement bar: the line beside the founder portrait, stacked on narrow screens */
+  .stmt { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: clamp(30px, 5vw, 70px); align-items: center; }
+  @media (max-width: 820px) { .stmt { grid-template-columns: 1fr; gap: 34px; justify-items: start; } }
   /* Hero proof strip: two stats anchored to the outer edges of the hero column */
   .hero-stats { display: grid; grid-template-columns: minmax(0, auto) minmax(0, auto); justify-content: space-between; gap: clamp(30px, 5vw, 64px); border-top: 1px solid rgba(255,255,255,.1); padding-top: clamp(28px, 3.4vw, 40px); }
   .hero-stats .hs-rule { display: block; width: 46px; height: 2px; border-radius: 2px; background: var(--accent); margin-bottom: 18px; box-shadow: 0 0 18px rgba(0,229,160,.55); }
@@ -173,10 +176,13 @@ $trades = [
 
   <!-- STATEMENT BAR -->
   <div style="position:relative; z-index:1; border-top:1px solid rgba(255,255,255,.06); border-bottom:1px solid rgba(255,255,255,.06); background:linear-gradient(180deg, rgba(0,229,160,.05), rgba(0,229,160,0));">
-    <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1), transform .8s cubic-bezier(.16,.84,.44,1); max-width:1180px; margin:0 auto; padding:clamp(44px,5vw,68px) clamp(20px,5vw,56px);">
-      <p style="font-family:'Space Grotesk',sans-serif; font-weight:500; font-size:clamp(30px,4.8vw,62px); line-height:1.16; letter-spacing:-.025em; margin:0; max-width:22ch;">
+    <div data-reveal class="stmt" style="transition:opacity .8s cubic-bezier(.16,.84,.44,1), transform .8s cubic-bezier(.16,.84,.44,1); max-width:1180px; margin:0 auto; padding:clamp(44px,5vw,68px) clamp(20px,5vw,56px);">
+      <p style="font-family:'Space Grotesk',sans-serif; font-weight:500; font-size:clamp(28px,4vw,52px); line-height:1.16; letter-spacing:-.025em; margin:0; max-width:18ch;">
         We don't take on clients. <span style="color:var(--accent);">We take on partners. And we don't stop until your market knows your name.</span>
       </p>
+      <?php if (file_exists(__DIR__ . '/assets/sako-rassam.jpg')): ?>
+        <img src="assets/sako-rassam.jpg" alt="Sako Rassam, founder of The Roofer Bros and Digital Era Media" width="360" height="360" loading="lazy" style="display:block; width:clamp(200px,26vw,360px); aspect-ratio:1; object-fit:cover; object-position:center top; border-radius:22px; border:1px solid rgba(0,229,160,.22); box-shadow:0 40px 90px -50px rgba(0,229,160,.5);">
+      <?php endif; ?>
     </div>
   </div>
 
