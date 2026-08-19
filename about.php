@@ -63,7 +63,7 @@ $nav_cta_href = 'contact.php';
   <!-- STATEMENT -->
   <div style="position:relative; z-index:1; border-top:1px solid rgba(255,255,255,.06); border-bottom:1px solid rgba(255,255,255,.06); background:linear-gradient(180deg, rgba(0,229,160,.05), rgba(0,229,160,0));">
     <div data-reveal class="stmt" style="max-width:1180px; margin:0 auto; padding:clamp(40px,5vw,60px) clamp(20px,5vw,56px);">
-      <p style="font-family:'Space Grotesk',sans-serif; font-weight:500; font-size:clamp(22px,3vw,40px); line-height:1.2; letter-spacing:-.02em; margin:0; max-width:26ch;">I own The Roofer Bros. <span style="color:var(--accent);">I grew it to 8-figure revenue in under 2 years using the exact system I now offer the trades.</span></p>
+      <p style="font-family:'Space Grotesk',sans-serif; font-weight:500; font-size:clamp(22px,3vw,40px); line-height:1.2; letter-spacing:-.02em; margin:0; max-width:26ch;">We own The Roofer Bros. <span style="color:var(--accent);">We grew it to 8-figure revenue in under 2 years using the exact system we now offer the trades.</span></p>
       <?php if (file_exists(__DIR__ . '/assets/sako-rassam.jpg')): ?>
         <img src="assets/sako-rassam.jpg" alt="Sako Rassam, founder of The Roofer Bros and Digital Era Media" width="320" height="320" loading="lazy" style="display:block; width:clamp(190px,24vw,320px); aspect-ratio:1; object-fit:cover; object-position:center top; border-radius:20px; border:1px solid rgba(0,229,160,.22); box-shadow:0 40px 90px -50px rgba(0,229,160,.5);">
       <?php endif; ?>

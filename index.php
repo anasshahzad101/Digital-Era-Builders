@@ -151,10 +151,10 @@ $trades = [
       Not an agency. A growth partner embedded in your business.
     </div>
     <h1 data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .06s, transform .8s cubic-bezier(.16,.84,.44,1) .06s; font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(42px,7.4vw,92px); line-height:.98; letter-spacing:-.035em; margin:0 0 26px; max-width:16ch; text-wrap:balance;">
-      I Was the Marketer. Then I Became <span style="color:var(--accent);">the Contractor.</span>
+      We Were the Marketers. Then We Became <span style="color:var(--accent);">the Contractors.</span>
     </h1>
     <p data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .12s, transform .8s cubic-bezier(.16,.84,.44,1) .12s; font-size:clamp(17px,1.5vw,21px); line-height:1.6; color:#b4b8c2; max-width:60ch; margin:0 0 40px;">
-      Now I take what I built inside <strong style="color:#f5f6f8; font-weight:700;">The Roofer Bros</strong>. Every system, every strategy, every hard lesson. And I put it to work inside yours.
+      Now we take what we built inside <strong style="color:#f5f6f8; font-weight:700;">The Roofer Bros</strong>. Every system, every strategy, every hard lesson. And we put it to work inside yours.
     </p>
     <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .18s, transform .8s cubic-bezier(.16,.84,.44,1) .18s; display:flex; flex-wrap:wrap; gap:14px; margin-bottom:clamp(52px,6vw,76px);">
       <a href="contact.php" class="mo-btn" style="font-size:15px; font-weight:700; color:var(--accent-ink); background:var(--accent); padding:16px 26px; border-radius:11px; box-shadow:0 14px 40px -14px rgba(0,229,160,.75);">See If We're a Fit &rarr;</a>
@@ -361,7 +361,7 @@ $trades = [
     <div data-reveal class="mo-card founder-quote" style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .1s, transform .8s cubic-bezier(.16,.84,.44,1) .1s; margin-top:clamp(40px,4vw,56px); border:1px solid rgba(0,229,160,.18); border-radius:20px; background:linear-gradient(180deg, rgba(0,229,160,.05), rgba(255,255,255,.008)); box-shadow:0 40px 90px -50px rgba(0,229,160,.5); padding:clamp(30px,3.6vw,50px);">
       <blockquote style="margin:0;">
         <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:60px; line-height:.6; color:var(--accent); opacity:.5; margin-bottom:12px;">&ldquo;</div>
-        <p style="font-size:clamp(17px,1.8vw,23px); line-height:1.58; letter-spacing:-.01em; color:#e4e7ec; margin:0;">I spent years running marketing for other people's businesses. Then I bet on myself, started The Roofer Bros, and ran the same playbook on my own company. Eight figures in under 24 months. Now I run it for other contractors who are ready to stop guessing.</p>
+        <p style="font-size:clamp(17px,1.8vw,23px); line-height:1.58; letter-spacing:-.01em; color:#e4e7ec; margin:0;">We spent years running marketing for other people's businesses. Then we bet on ourselves, started The Roofer Bros, and ran the same playbook on our own company. Eight figures in under 24 months. Now we run it for other contractors who are ready to stop guessing.</p>
       </blockquote>
       <div class="fq-attr">
         <div style="display:flex; align-items:center; justify-content:center; width:54px; height:54px; border-radius:50%; background:rgba(0,229,160,.12); border:1px solid rgba(0,229,160,.28); font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:17px; color:var(--accent); margin-bottom:18px;">SR</div>
