@@ -108,6 +108,22 @@ $trades = [
     .founder-quote { grid-template-columns: 1fr; gap: 30px; }
     .founder-quote > .fq-attr { border-left: 0; border-top: 1px solid rgba(255,255,255,.1); padding-left: 0; padding-top: 30px; }
   }
+  /* Statement bar: the line beside the founder portrait, stacked on narrow screens */
+  .stmt { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: clamp(30px, 5vw, 70px); align-items: center; }
+  @media (max-width: 820px) { .stmt { grid-template-columns: 1fr; gap: 34px; justify-items: start; } }
+  /* Hero proof strip: two stats anchored to the outer edges of the hero column */
+  .hero-stats { display: grid; grid-template-columns: minmax(0, auto) minmax(0, auto); justify-content: space-between; gap: clamp(30px, 5vw, 64px); border-top: 1px solid rgba(255,255,255,.1); padding-top: clamp(28px, 3.4vw, 40px); }
+  .hero-stats .hs-rule { display: block; width: 46px; height: 2px; border-radius: 2px; background: var(--accent); margin-bottom: 18px; box-shadow: 0 0 18px rgba(0,229,160,.55); }
+  .hero-stats .hs-num { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: clamp(32px, 3.4vw, 46px); letter-spacing: -.03em; line-height: 1; white-space: nowrap; }
+  .hero-stats .hs-num span { color: var(--accent); }
+  .hero-stats .hs-cap { font-size: 14px; color: #8b8f99; margin-top: 11px; line-height: 1.5; max-width: 34ch; }
+  .hero-stats .hs-end { text-align: right; }
+  .hero-stats .hs-end .hs-rule, .hero-stats .hs-end .hs-cap { margin-left: auto; }
+  @media (max-width: 820px) {
+    .hero-stats { grid-template-columns: 1fr; justify-content: start; gap: 32px; }
+    .hero-stats .hs-end { text-align: left; }
+    .hero-stats .hs-end .hs-rule, .hero-stats .hs-end .hs-cap { margin-left: 0; }
+  }
   /* Interactive trades: selectable pills + detail panel */
   .trade-pill { appearance:none; -webkit-appearance:none; padding:14px 22px; border-radius:100px; font-size:15px; font-weight:600; color:#d6d9df; background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.1); cursor:pointer; font-family:inherit; transition: transform .3s cubic-bezier(.16,.84,.44,1), border-color .3s ease, background .3s ease, color .3s ease, box-shadow .3s ease; }
   @media (hover:hover) { .trade-pill:hover { transform:translateY(-4px); border-color:rgba(0,229,160,.5); background:rgba(0,229,160,.08); color:#eafff7; } }
@@ -135,37 +151,38 @@ $trades = [
       Not an agency. A growth partner embedded in your business.
     </div>
     <h1 data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .06s, transform .8s cubic-bezier(.16,.84,.44,1) .06s; font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(42px,7.4vw,92px); line-height:.98; letter-spacing:-.035em; margin:0 0 26px; max-width:16ch; text-wrap:balance;">
-      I Was the Marketer. Then I Became <span style="color:var(--accent);">the Contractor.</span>
+      We Were the Marketers. Then We Became <span style="color:var(--accent);">the Contractors.</span>
     </h1>
     <p data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .12s, transform .8s cubic-bezier(.16,.84,.44,1) .12s; font-size:clamp(17px,1.5vw,21px); line-height:1.6; color:#b4b8c2; max-width:60ch; margin:0 0 40px;">
-      Now I take what I built inside <strong style="color:#f5f6f8; font-weight:700;">The Roofer Bros</strong>. Every system, every strategy, every hard lesson. And I put it to work inside yours.
+      Now we take what we built inside <strong style="color:#f5f6f8; font-weight:700;">The Roofer Bros</strong>. Every system, every strategy, every hard lesson. And we put it to work inside yours.
     </p>
     <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .18s, transform .8s cubic-bezier(.16,.84,.44,1) .18s; display:flex; flex-wrap:wrap; gap:14px; margin-bottom:clamp(52px,6vw,76px);">
       <a href="contact.php" class="mo-btn" style="font-size:15px; font-weight:700; color:var(--accent-ink); background:var(--accent); padding:16px 26px; border-radius:11px; box-shadow:0 14px 40px -14px rgba(0,229,160,.75);">See If We're a Fit &rarr;</a>
       <a href="services.php" class="mo-ghost" style="font-size:15px; font-weight:600; color:#f5f6f8; background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.14); padding:16px 26px; border-radius:11px;">How We Grow You</a>
     </div>
-    <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .24s, transform .8s cubic-bezier(.16,.84,.44,1) .24s; display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:1px; background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.08); border-radius:16px; overflow:hidden;">
-      <div style="background:#0a0b11; padding:28px 30px;">
-        <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(30px,3vw,40px); letter-spacing:-.03em; line-height:1;">8-<span style="color:var(--accent);">FIGURES</span></div>
-        <div style="font-size:13.5px; color:#8b8f99; margin-top:10px; line-height:1.4;">Revenue built at The Roofer Bros</div>
+    <div data-reveal class="hero-stats" style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .24s, transform .8s cubic-bezier(.16,.84,.44,1) .24s;">
+      <div class="hs">
+        <span class="hs-rule"></span>
+        <div class="hs-num">6-<span>MONTH</span></div>
+        <div class="hs-cap">Minimum, then month-to-month</div>
       </div>
-      <div style="background:#0a0b11; padding:28px 30px;">
-        <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(30px,3vw,40px); letter-spacing:-.03em; line-height:1;">6-<span style="color:var(--accent);">MONTH</span></div>
-        <div style="font-size:13.5px; color:#8b8f99; margin-top:10px; line-height:1.4;">Minimum, then month-to-month</div>
-      </div>
-      <div style="background:#0a0b11; padding:28px 30px;">
-        <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(30px,3vw,40px); letter-spacing:-.03em; line-height:1;">TOP-<span style="color:var(--accent);">RANKING</span></div>
-        <div style="font-size:13.5px; color:#8b8f99; margin-top:10px; line-height:1.4;">Google rankings across every market we've entered</div>
+      <div class="hs hs-end">
+        <span class="hs-rule"></span>
+        <div class="hs-num">TOP-<span>RANKING</span></div>
+        <div class="hs-cap">Google rankings across every market we've entered</div>
       </div>
     </div>
   </section>
 
   <!-- STATEMENT BAR -->
   <div style="position:relative; z-index:1; border-top:1px solid rgba(255,255,255,.06); border-bottom:1px solid rgba(255,255,255,.06); background:linear-gradient(180deg, rgba(0,229,160,.05), rgba(0,229,160,0));">
-    <div data-reveal style="transition:opacity .8s cubic-bezier(.16,.84,.44,1), transform .8s cubic-bezier(.16,.84,.44,1); max-width:1180px; margin:0 auto; padding:clamp(44px,5vw,68px) clamp(20px,5vw,56px);">
-      <p style="font-family:'Space Grotesk',sans-serif; font-weight:500; font-size:clamp(30px,4.8vw,62px); line-height:1.16; letter-spacing:-.025em; margin:0; max-width:22ch;">
+    <div data-reveal class="stmt" style="transition:opacity .8s cubic-bezier(.16,.84,.44,1), transform .8s cubic-bezier(.16,.84,.44,1); max-width:1180px; margin:0 auto; padding:clamp(44px,5vw,68px) clamp(20px,5vw,56px);">
+      <p style="font-family:'Space Grotesk',sans-serif; font-weight:500; font-size:clamp(28px,4vw,52px); line-height:1.16; letter-spacing:-.025em; margin:0; max-width:18ch;">
         We don't take on clients. <span style="color:var(--accent);">We take on partners. And we don't stop until your market knows your name.</span>
       </p>
+      <?php if (file_exists(__DIR__ . '/assets/sako-rassam.jpg')): ?>
+        <img src="assets/sako-rassam.jpg" alt="Sako Rassam, founder of The Roofer Bros and Digital Era Media" width="360" height="360" loading="lazy" style="display:block; width:clamp(200px,26vw,360px); aspect-ratio:1; object-fit:cover; object-position:center top; border-radius:22px; border:1px solid rgba(0,229,160,.22); box-shadow:0 40px 90px -50px rgba(0,229,160,.5);">
+      <?php endif; ?>
     </div>
   </div>
 
@@ -344,7 +361,7 @@ $trades = [
     <div data-reveal class="mo-card founder-quote" style="transition:opacity .8s cubic-bezier(.16,.84,.44,1) .1s, transform .8s cubic-bezier(.16,.84,.44,1) .1s; margin-top:clamp(40px,4vw,56px); border:1px solid rgba(0,229,160,.18); border-radius:20px; background:linear-gradient(180deg, rgba(0,229,160,.05), rgba(255,255,255,.008)); box-shadow:0 40px 90px -50px rgba(0,229,160,.5); padding:clamp(30px,3.6vw,50px);">
       <blockquote style="margin:0;">
         <div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:60px; line-height:.6; color:var(--accent); opacity:.5; margin-bottom:12px;">&ldquo;</div>
-        <p style="font-size:clamp(17px,1.8vw,23px); line-height:1.58; letter-spacing:-.01em; color:#e4e7ec; margin:0;">I spent years running marketing for other people's businesses. Then I bet on myself, started The Roofer Bros, and ran the same playbook on my own company. Eight figures in under 24 months. Now I run it for other contractors who are ready to stop guessing.</p>
+        <p style="font-size:clamp(17px,1.8vw,23px); line-height:1.58; letter-spacing:-.01em; color:#e4e7ec; margin:0;">We spent years running marketing for other people's businesses. Then we bet on ourselves, started The Roofer Bros, and ran the same playbook on our own company. Eight figures in under 24 months. Now we run it for other contractors who are ready to stop guessing.</p>
       </blockquote>
       <div class="fq-attr">
         <div style="display:flex; align-items:center; justify-content:center; width:54px; height:54px; border-radius:50%; background:rgba(0,229,160,.12); border:1px solid rgba(0,229,160,.28); font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:17px; color:var(--accent); margin-bottom:18px;">SR</div>

@@ -4,16 +4,18 @@ Image files served directly by the site.
 
 ## sako-rassam.jpg
 
-The founder portrait shown beside the statement line on `about.php`
-("I own The Roofer Bros...").
+The founder portrait. One file, used in two places:
+
+- `index.php` — beside the statement line ("We don't take on clients...")
+- `about.php` — beside the statement line ("I own The Roofer Bros...")
 
 Drop the photo in at exactly this path and filename:
 
     assets/sako-rassam.jpg
 
-`about.php` renders the portrait only when that file exists, so the page
-falls back to the original single-column statement until it is added. No
-broken image icon in the meantime.
+Both pages render the portrait only when that file exists, so they fall
+back to the original single-column statement until it is added. No broken
+image icon in the meantime.
 
 Guidance for the file:
 
